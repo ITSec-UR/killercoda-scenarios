@@ -31,6 +31,20 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "Docker.svg",
+          "target": "~/"
+        }
+      ],
+      "host01": [
+        {
+          "file": "VM.svg",
+          "target": "~/"
+        }
+      ]
     }
   },
   "environment": {

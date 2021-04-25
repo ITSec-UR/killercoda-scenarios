@@ -6,12 +6,13 @@ Legen Sie eine Dockerfile an.
 Eine Dockerfile besteht aus Anweisungen, die das Image zusammenstellen. Jede Anweisung steht in einer eigenen Zeile und besteht aus einem Befehl gefolgt mit seinen Argumenten. Jede Dockefile **muss** mit der `FROM`-Anweisung beginnen. Diese legt für das neue Image ein Basis-Image fest.
 `echo 'FROM nginx' >> Dockerfile`{{execute}}
 
-Kopieren Sie ein Skript, dass beim Building-Prozess ausgeführt wird.
+Kopieren Sie die statischen HTML-Files.
 `echo 'COPY ./html /usr/share/nginx/html/' >> Dockerfile`{{execute}}
 
 `echo 'RUN echo "<p>This is still an introduction to Docker</p>" >> /usr/share/nginx/html/index.html' >> Dockerfile`{{execute}}
 
-`echo 'EXPOSE 88' >> Dockerfile`{{execute}}
+`docker build -t new_nginx .`{{execute}}
+`docker run new_nginx -p 8080:80 -d`{{execute}}
 
 Öffnen Sie nun Ihre Webseite.
-https://[[HOST_SUBDOMAIN]]-88-[[KATACODA_HOST]].environments.katacoda.com/
+https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
