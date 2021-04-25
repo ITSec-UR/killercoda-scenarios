@@ -3,9 +3,15 @@ Starten Sie einen Container mit dem Image `new_nginx`.
 
 Beachten Sie, dass dieses Mal kein Volume angegeben wurde. Vergewissern Sie sich, dass die HTML-Files in den neuen Container `web2` kopiert wurden bzw. existieren. Sie können dazu eine Terminal in den laufenden Container öffnen und anschließend zu den Pfad `/usr/share/nginx/html/` wechseln.  
 `docker exec -it web2 bash`{{execute}}  
-`cd /usr/share/nginx/html/`{{execute}}  
-`cat index.html`{{execute}}  
+
+Option | Beschreibung 
+--- | --- |
+ *i* | Interactive - Hält den STDIN offen, auch wenn Container als Daemon läuft.
+ *t* | TTY - Startet Pseudo-TTY mit `/bin/bash`.
+
+`cat /usr/share/nginx/html/index.html`{{execute}}  
 
 Schließen Sie die Terminal in Ihrem Container und öffnen Sie abschließend Ihre Webseite.  
 `exit`{{execute}}  
+
 https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
