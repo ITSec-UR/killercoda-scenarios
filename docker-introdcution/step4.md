@@ -7,8 +7,11 @@ Eine Dockerfile besteht aus Anweisungen, die das Image zusammenstellen. Jede Anw
 `echo 'FROM nginx' >> Dockerfile`{{execute}}
 
 Kopieren Sie ein Skript, dass beim Building-Prozess ausgeführt wird.
-`echo 'COPY /root/html/index.html /usr/share/nginx/html/' >> Dockerfile`{{execute}}
+`echo 'COPY ./html /usr/share/nginx/html/' >> Dockerfile`{{execute}}
 
 `echo 'RUN echo "<p>This is still an introduction to Docker</p>" >> /usr/share/nginx/html/index.html' >> Dockerfile`{{execute}}
 
-`EXPOSE 88`{{execute}}
+`echo 'EXPOSE 88' >> Dockerfile`{{execute}}
+
+Öffnen Sie nun Ihre Webseite.
+https://[[HOST_SUBDOMAIN]]-88-[[KATACODA_HOST]].environments.katacoda.com/
