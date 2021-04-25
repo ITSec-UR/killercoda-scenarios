@@ -12,4 +12,6 @@ Docker ist eine Container-Virtualisierungslösung, mit der einzelne Anwendungen 
 
 ![Bestandteile VM](https://raw.githubusercontent.com/Luycia/katacoda-scenarios/main/docker-introdcution/assets/VM.svg) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Bestandteile Docker](https://raw.githubusercontent.com/Luycia/katacoda-scenarios/main/docker-introdcution/assets/Docker.svg)
 
-![Bestandteile VM](./assets/VM.svg) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Bestandteile Docker](./assets/Docker.png)
+| ![Bestandteile VM](https://raw.githubusercontent.com/Luycia/katacoda-scenarios/main/docker-introdcution/assets/VM.svg) | ![Bestandteile Docker](https://raw.githubusercontent.com/Luycia/katacoda-scenarios/main/docker-introdcution/assets/Docker.svg) | 
+|:--:|:--:|
+| Unterschrift1 | Unterschrift 2 |
