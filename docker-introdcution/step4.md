@@ -4,4 +4,11 @@ Legen Sie eine Dockerfile an.
 `touch Dockerfile`{{execute}}
 
 Eine Dockerfile besteht aus Anweisungen, die das Image zusammenstellen. Jede Anweisung steht in einer eigenen Zeile und besteht aus einem Befehl gefolgt mit seinen Argumenten. Jede Dockefile **muss** mit der `FROM`-Anweisung beginnen. Diese legt für das neue Image ein Basis-Image fest.
-`echo "FROM Ubuntu" >> Dockerfile`{{execute}}
+`echo 'FROM nginx' >> Dockerfile`{{execute}}
+
+Kopieren Sie ein Skript, dass beim Building-Prozess ausgeführt wird.
+`echo 'COPY /root/html/index.html /usr/share/nginx/html/' >> Dockerfile`{{execute}}
+
+`echo 'RUN echo "<p>This is still an introduction to Docker</p>" >> /usr/share/nginx/html/index.html' >> Dockerfile`{{execute}}
+
+`EXPOSE 88`{{execute}}
