@@ -12,16 +12,16 @@ Mithilfe der `COPY`-Anweisung können Files vom Host-System in das neue Containe
 Die `RUN`-Anweisung führt einen Befehl auf der Kommandozeile aus.  
 `echo 'RUN echo "<p>This is still an introduction to Docker</p>" >> /usr/share/nginx/html/index.html' >> Dockerfile`{{execute}}
 
-Lassen Sie sich nun die Dockerfile ausgeben.
+Lassen Sie sich nun die Dockerfile ausgeben.  
 `cat Dockerfile`{{execute}}
 
-Bauen Sie nun Ihr neues Image mit dem Namen `new_nginx`.
+Bauen Sie nun Ihr neues Image mit dem Namen `new_nginx`.  
 `docker build -t new_nginx .`{{execute}}
 
-Überprüfen Sie, dass das Image `new_nginx` existiert.
-`docker images`{{execute}}
+Überprüfen Sie, dass das Image `new_nginx` existiert.  
+`docker images | grep new_nginx`{{execute}}
 
-Sie können nun einen Container von dem Image `new_nginx` starten.
+Sie können nun einen Container von dem Image `new_nginx` starten.  
 `docker run new_nginx -p 8080:80 --name web2 -d`{{execute}}
 
 Beachten Sie, dass dieses Mal kein Volume angegeben wurde. Vergewissern Sie sich, dass die HTML-Files in den neuen Container `web2` kopiert wurden bzw. existieren. Sie können dazu eine Terminal in den laufenden Container öffnen und anschließend zu den Pfad `/usr/share/nginx/html/` wechseln.  
