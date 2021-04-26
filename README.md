@@ -1,8 +1,8 @@
 # Interactive Katacoda Scenarios
 
-[![](http://shields.katacoda.com/katacoda/luycia/count.svg)](https://www.katacoda.com/luycia "Get your profile on Katacoda.com")
+[![](http://shields.katacoda.com/katacoda/ur-itsec2/count.svg)](https://www.katacoda.com/ur-itsec2 "Get your profile on Katacoda.com")
 
-Visit https://www.katacoda.com/luycia to view the profile and interactive scenarios
+Visit https://www.katacoda.com/ur-itsec2 to view the profile and interactive scenarios
 
 ### Writing Scenarios
 Visit https://www.katacoda.com/docs to learn more about creating Katacoda scenarios
