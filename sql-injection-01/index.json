@@ -18,17 +18,14 @@
     },
     "assets": {
       "host01": [
-        {
-          "file": "install.sh",
-          "target": "~/.install",
-          "chmod": "+x"
-        }
+        {"file": "install.sh", "target": "~/.install", "chmod": "+x"},
+        {"file": "sql-injection-01/*.*", "target": "~/.docker"}
       ]
     }
   },
   "environment": {
     "uilayout": "editor-terminal",
-    "exclusionPatterns": ["~/install"]
+    "exclusionPatterns": ["~/.install"]
   },
   "backend": {
     "imageid": "ubuntu:2004"
