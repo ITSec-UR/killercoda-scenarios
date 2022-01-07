@@ -11,21 +11,20 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "install.sh"
     },
     "finish": {
       "text": "finish.md"
     },
     "assets": {
       "host01": [
-        {"file": "install.sh", "target": "~/.install", "chmod": "+x"},
         {"file": "sql-injection-01/*.*", "target": "~/.docker"}
       ]
     }
   },
   "environment": {
-    "uilayout": "editor-terminal",
-    "exclusionPatterns": ["~/.install"]
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "ubuntu:2004"
