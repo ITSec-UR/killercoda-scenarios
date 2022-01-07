@@ -24,7 +24,8 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "exclusionPatterns": ["~/.install"]
   },
   "backend": {
     "imageid": "ubuntu:2004"
