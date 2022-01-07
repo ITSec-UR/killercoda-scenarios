@@ -7,7 +7,7 @@
       "steps": [
         {
           "title": "Abgefangene Request (1)",
-          "text": "step8.md",
+          "text": "step1.md",
           "code": "/assets/env_attacker.sh"
         }, 
         {
