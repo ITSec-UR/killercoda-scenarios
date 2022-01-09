@@ -1,4 +1,4 @@
-Die vom Angreifer erstellte MAC <br>
+Die vom Angreifer erstellte MAC (ohne Kenntnis von k) <br>
 `2a134f5a38f800801202ce167afe825d82db8479` <br>
 stimmt mit der vom Server berechneten MAC <br>
 `2a134f5a38f800801202ce167afe825d82db8479`
