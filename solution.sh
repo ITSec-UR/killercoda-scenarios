@@ -10,6 +10,6 @@ fi
 
 curl -o "${DIR}/solution.zip" "$1"
 unzip -d ${NAME} "${DIR}/solution.zip"
-rm -rf solution.zip
+rm -rf "${DIR}/solution.zip"
 docker-compose -f ${NAME}/*/katacoda-quiz-solution/docker-compose.yml up -d
 rm -- "$0"
