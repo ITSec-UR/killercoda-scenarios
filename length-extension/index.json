@@ -42,7 +42,8 @@
         },        
         {
           "title": "Angriff (3)",
-          "text": "step9.md"
+          "text": "step9.md",
+          "courseData": "/assets/env_attacker2.sh"
         },        
         {
           "title": "Serverseitige Prüfung",
