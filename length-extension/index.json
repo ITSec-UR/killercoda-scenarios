@@ -7,8 +7,7 @@
       "steps": [
         {
           "title": "Hinweise und Lösungen",
-          "text": "step1.md",
-          "courseData": "/assets/install_solution.sh"
+          "text": "step1.md"
         },
         {
           "title": "Abgefangene Request (1)",
