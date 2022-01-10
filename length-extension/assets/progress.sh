@@ -4,4 +4,4 @@ then
    echo "Timeout (60s): Configuring"
 fi
 
-source .environment
+source /root/.environment
