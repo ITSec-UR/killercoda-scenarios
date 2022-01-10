@@ -6,7 +6,7 @@ Da k || m<sub>1</sub> || Padding einen 64-Byte Block vollständig belegen, muss 
 
 Zur Erinnerung: SHA-1 folgt einer Merkle–Damgård Konstruktion, d. h. der Hashwert ist gegeben durch x=h<sub>IV</sub>(m). Beim Hash-Length-Extension wird der Hashwert für den Block n+1 weitergerechnet mit dem Ergebnis aus Block n, d. h. der gefälschte MAC ist gegeben durch mac<sub>2</sub>=h<sub>mac1</sub>(m<sub>2</sub>)
 ##### 15) Wie lauten die fünf Teilstrings des Initialisierungsvektors für den Block n+1 (mit m<sub>2</sub>)?
-*Tipp: Sehen Sie sich den Output für m<sub>1</sub> an. Sie können jederzeit Steps zurückgehen.*
+*Tipp: Sehen Sie sich den Output für mac<sub>1</sub> an. Sie können jederzeit Steps zurückgehen.*
 
 >>H<sub>0</sub><<
 === 5e1498cb
