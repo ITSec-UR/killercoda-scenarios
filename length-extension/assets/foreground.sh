@@ -1,7 +1,6 @@
 counter=0
-while [ "$counter" -lt 5] && [ $? -eq 127]
-do
+while [ "$counter" -lt 5 ] ; do
    ((counter+=1))
    progress.sh
-   sleep 1
+   if [ $? -ne 127 ] ; then break; else sleep 1 ; fi
 done
