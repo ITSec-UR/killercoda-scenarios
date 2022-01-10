@@ -6,7 +6,7 @@ while [ "$counter" -lt 5 ] ; do
    if [ $? -ne 127 ] ; then break; else sleep 1 ; fi
 done
 source /root/.environment
-cat > fin.sh<<EOF
+cat > .fin.sh<<EOF
 clear
 printf "    \b\b\b\b"
 echo ""
@@ -14,4 +14,4 @@ echo "Configured"
 rm -- "\$0"
 EOF
 history -c
-bash fin.sh
+bash .fin.sh
