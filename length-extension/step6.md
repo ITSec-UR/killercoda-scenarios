@@ -4,7 +4,7 @@ In unserem Beispiel wollen Sie die ursprüngliche Bestellung durch die Erweiteru
 
 Legen Sie die folgenden Variablen an.<br>
 `m2="&bus=50"`{{execute}}<br>
-`m2_hex=echo $m2 | xxd -p`{{execute}}<br>
+`m2_hex=$(echo $m2 | xxd -p)`{{execute}}<br>
 
 `m_ext="${m1}${pad}${m2}"`{{execute}}<br>
 
