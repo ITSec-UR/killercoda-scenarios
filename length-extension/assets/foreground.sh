@@ -7,11 +7,13 @@ while [ "$counter" -lt 5 ] ; do
 done
 source /root/.environment
 cat > .fin.sh<<EOF
+#!/bin/bash
 clear
 printf "    \b\b\b\b"
 echo ""
 echo "Configured"
 rm -- "\$0"
 EOF
-bash .fin.sh
-history -c >/dev/null 2>&1
+chmod +x .fin.sh
+history -c
+./.fin.sh
