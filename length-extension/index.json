@@ -8,7 +8,7 @@
         {
           "title": "Hinweise und Lösungen",
           "text": "step1.md",
-          "courseData": "/assets/setup.sh",
+          "courseData": "/assets/env_attacker.sh",
           "code": "/assets/foreground.sh"
         },
         {
@@ -41,18 +41,17 @@
         },        
         {
           "title": "Angriff (3)",
-          "text": "step9.md",
-          "courseData": "/assets/env_attacker2.sh"
+          "text": "step9.md"
         },        
         {
           "title": "Serverseitige Prüfung",
           "text": "step10.md", 
-          "code": "/assets/env_server.sh"
+          "courseData": "/assets/env_server.sh",
+          "code": "/assets/foreground.sh"
         }
       ],
       "intro": {
-        "text": "intro.md",
-        "code": "/assets/env_attacker.sh"
+        "text": "intro.md"
       },
       "finish": {
         "text": "finish.md"

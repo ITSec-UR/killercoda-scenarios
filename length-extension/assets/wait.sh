@@ -27,4 +27,3 @@ show_progress()
 
 clear
 show_progress
-rm -- "$0"
