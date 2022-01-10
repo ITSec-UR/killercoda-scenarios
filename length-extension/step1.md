@@ -1,5 +1,5 @@
 #### Hinweise und Lösungen
-Für diese Aufgabe stehen Ihnen Hinweise und Lösungen bereit unter https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/.
+Für diese Aufgabe stehen Ihnen Lösungen bereit unter https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/.
 
 Es wurden eine Nachricht m<sub>1</sub> und ein MAC abgefangen.<br>
 Lesen Sie die Werte der Variablen `m1` und `mac1` aus:

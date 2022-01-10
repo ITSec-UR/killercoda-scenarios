@@ -19,5 +19,5 @@ Sie vermuten, dass der Schlüssel die Länge 9 hat.
 () 28
 () 62
 
->>12) Welche Länge hat das Padding insgesamt (in Bytes)?<<
+>>12) Welche Länge (Bytes) hat das Padding insgesamt?<<
 === 50
