@@ -6,10 +6,11 @@ while [ "$counter" -lt 5 ] ; do
    if [ $? -ne 127 ] ; then break; else sleep 1 ; fi
 done
 source /root/.environment
-history -c
 cat > fin.sh<<EOF
-#printf "    \b\b\b\b"
-#echo ""
+clear
+printf "    \b\b\b\b"
+echo ""
 echo "Configured"
 EOF
+history -c
 bash fin.sh
