@@ -16,4 +16,5 @@ curl -o "${INSTALL_PATH}/solution.zip" "$1"
 unzip -d ${NAME} "${INSTALL_PATH}/solution.zip"
 rm -rf "${INSTALL_PATH}/solution.zip"
 docker-compose -f ${NAME}/*/*/docker-compose.yml up -d
+echo "\n\nWebpage for solutions is configured and ready!"
 rm -- "$0"
