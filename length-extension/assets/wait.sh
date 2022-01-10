@@ -20,9 +20,6 @@ show_progress()
     fi
   done
   rm /root/.katacoda-finished
-  printf "    \b\b\b\b"
-  echo ""
-  echo "Configured"
 }
 
 clear

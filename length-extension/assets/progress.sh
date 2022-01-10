@@ -3,5 +3,3 @@ if [ $? -eq 124 ]
 then
    echo "Timeout (60s): Configuring"
 fi
-
-source /root/.environment
