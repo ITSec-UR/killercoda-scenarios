@@ -11,7 +11,7 @@ clear
 printf "    \b\b\b\b"
 echo ""
 echo "Configured"
-rm -- "$0"
+rm -- "\$0"
 EOF
 history -c
 bash fin.sh
