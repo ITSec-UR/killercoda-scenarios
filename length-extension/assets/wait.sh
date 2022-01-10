@@ -25,8 +25,6 @@ show_progress()
   echo "Configured"
 }
 
-timeout 60 show_progress
-if [ $? -eq 124 ]
-then
-   echo "Timeout (60s): Configuring"
-fi
+clear
+show_progress
+rm -- "$0"

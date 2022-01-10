@@ -9,7 +9,7 @@
           "title": "Hinweise und Lösungen",
           "text": "step1.md",
           "courseData": "/assets/setup.sh",
-          "code": "/assets/progress.sh"
+          "code": "/assets/foreground.sh"
         },
         {
           "title": "Abgefangene Request (1)",
@@ -58,7 +58,8 @@
       },
       "assets": {
         "host01": [
-            {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+            {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+            {"file": "progress.sh", "target": "/usr/local/bin/", "chmod": "+x"}
         ]
       }
     },
