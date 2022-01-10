@@ -1,4 +1,8 @@
 #!/bin/bash
 apt-get install -y ascii
-#git clone http://gitlab.itsec.ur.de/itsec/uebung/length-extension.git # all files
-wget https://gitlab.itsec.ur.de/itsec/uebung/length-extension/raw/master/sha1.py # single file
+
+wget https://gitlab.itsec.ur.de/itsec/uebung/length-extension/raw/master/sha1.py
+
+# Solution
+wget https://gitlab.itsec.ur.de/itsec/uebung/katacoda-scenarios/raw/master/solution.sh
+bash solution.sh https://gitlab.itsec.ur.de/itsec/uebung/length-extension/-/archive/master/length-extension-master.zip?path=katacoda-quiz-solution

@@ -1,4 +1,5 @@
-<link rel="stylesheet" href="assets/tooltip.css">
+#### Hinweise und Lösungen
+Für diese Aufgabe stehen Ihnen Hinweise und Lösungen bereit unter https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/.
 
 Es wurden eine Nachricht m<sub>1</sub> und ein MAC abgefangen.<br>
 Lesen Sie die Werte der Variablen `m1` und `mac1` aus:
@@ -14,7 +15,3 @@ Lassen Sie sich die Nachricht in Hexadezimalschreibweise ausgeben.<br>
 
 >>2) Wie viele Bytes umfasst die Nachricht?<<
 === 5
-
-<div class="tooltip">Lösung
-  <span class="tooltiptext">Zählen Sie die Anzahl der Bytes, ohne Leerzeichen, beginnend mit der 62.</span>
-</div>
