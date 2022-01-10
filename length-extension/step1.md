@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="assets/tooltip.css">
-
 Es wurden eine Nachricht m<sub>1</sub> und ein MAC abgefangen.<br>
 Lesen Sie die Werte der Variablen `m1` und `mac1` aus:
 - `echo $m1`{{execute}}
@@ -14,7 +12,3 @@ Lassen Sie sich die Nachricht in Hexadezimalschreibweise ausgeben.<br>
 
 >>2) Wie viele Bytes umfasst die Nachricht?<<
 === 5
-
-<div class="tooltip">Lösung
-  <span class="tooltiptext">Zählen Sie die Anzahl der Bytes, ohne Leerzeichen, beginnend mit der 62.</span>
-</div>
