@@ -13,8 +13,7 @@
         },
         {
           "title": "Abgefangene Request (1)",
-          "text": "step2.md",
-          "code": "/assets/env_attacker.sh"
+          "text": "step2.md"
         }, 
         {
           "title": "Abgefangene Request (2)",
@@ -52,7 +51,8 @@
         }
       ],
       "intro": {
-        "text": "intro.md"
+        "text": "intro.md",
+        "code": "/assets/env_attacker.sh"
       },
       "finish": {
         "text": "finish.md"
