@@ -4,8 +4,8 @@ k="topsecret"
 m_rec="bus=1\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x70&bus=50"
 mac="2a134f5a38f800801202ce167afe825d82db8479"
 
-echo k="$k" >> /root/.environment
-echo m_rec="$m_rec" >> /root/.environment
-echo mac="$mac" >> /root/.environment
+echo 'export k="'$k'"' >> /root/.environment
+echo 'export m_rec="'$m_rec'"' >> /root/.environment
+echo 'export mac="'$mac'"' >> /root/.environment
 
 echo "done" >> /root/.katacoda-finished

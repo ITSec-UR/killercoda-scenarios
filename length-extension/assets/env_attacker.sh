@@ -5,9 +5,12 @@ m1="bus=1"                                          # original message
 mac1=$(echo -n $k$m1 | sha1sum | awk '{print $1}')  # original mac h(k||m1)
 pad="8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000070"
 
-echo m1="$m1" >> /root/.environment
-echo mac1="$mac1" >> /root/.environment
-echo pad="$pad" >> /root/.environment
+echo 'export m1="'$m1'"' >> /root/.environment
+echo 'export mac1="'$mac1'"' >> /root/.environment
+echo 'export pad="'$pad'"' >> /root/.environment
+
+echo 'source /root/.environment' >> /root/.bashrc
+
 
 wget https://gitlab.itsec.ur.de/itsec/uebung/length-extension/raw/master/sha1.py
 
