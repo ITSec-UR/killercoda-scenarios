@@ -1,12 +1,16 @@
-Der String m<sub>1</sub> || Padding kann nun um eine beliebige Nachricht erweitert werden.<br>
+Das Padding wurde wie folgt gebildet:<br>
+<strong>Padding = 80 || 00 * x || L<strong>
+- 80-Byte: Start-Wert für Padding
+- 00-Byte: Padding-Byte
+- x: Anzahl 00-Bytes des Paddings
+- L: 00 * 7 || 70 (big-endian)
+
+
+>>13) Welchen Wert hat x?<<
+=== 41
+
+>> 14) Geben Sie das Padding in Hexadezimal-Bytes an (ohne Leerzeichen).<<
+=== 8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000070
+
 <br>
-In unserem Beispiel wollen Sie die ursprüngliche Bestellung durch die Erweiterung `&bus=50` auf 50 Busse erhöhen.<br>
-
-Legen Sie die folgenden Variablen an.<br>
-`m2="&bus=50"`{{execute}}<br>
-`m2_hex=$(echo $m2 | xxd -p)`{{execute}}<br>
-
-`m_ext="${m1}${pad}${m2}"`{{execute}}<br>
-
-Sie haben nun die erweiterte Nachricht m<sub>ext</sub> = m<sub>1</sub> || Padding || m<sub>2</sub> erstellt.<br>
-`echo $m_ext`{{execute}}
+*Tipp: Sie können einen Texteditor Ihrer Wahl verwenden oder in Katacoda eine neue Textdatei mit* `touch textfile.txt`{{execute}} *anlegen. Die neu erstellte Datei kann im oberen Textfeld bearbeitet werden.*

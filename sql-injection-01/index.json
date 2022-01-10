@@ -25,6 +25,7 @@
   },
   "environment": {
     "uilayout": "editor-terminal",
+    "hideHiddenFiles": true,
     "exclusionPatterns": ["~/.install"]
   },
   "backend": {

@@ -1,18 +1,9 @@
-Der Server erhält eine Nachricht `m_rec = m_ext` und einen MAC. Er kennt zudem auch den gemeinsamen Schlüssel k.<br>
-Lesen Sie die Werte der Variablen  `k`, `m_rec` und `mac` aus:
-- `echo $k`{{execute}}
-- `echo $m_rec`{{execute}}
-- `echo $mac`{{execute}}
+Die Berechnung des neuen MAC erfolgt über ein Python-Skript `sha1.py`, das eine initialisierbare Implementierung des SHA-1 Algorithmus beinhaltet.<br>
 
+Berechnen Sie den neuen MAC, indem Sie das Skript mit den folgenden Parametern ausführen:
+- Nachricht m
+- Initialisierungsvektor i 
+- Länge der erweiterten Nachricht l 
 <br>
 
-Zur Prüfung der Integrität der Nachricht berechnet der Server den MAC als <br>
-h(k || m<sub>rec</sub>):<br>
-
-`echo -n -e $k$m_rec | sha1sum`{{execute}}
-
-<br>
-
-Vergleichen Sie die Ausgabe des Python-Skripts (MAC des Angreifers) mit dem vom Server berechneten Hashwert aus Schlüssel und erhaltener Nachricht.
-
-<br>
+`python3 sha1.py -m "&bus=50" -i 5e1498cb e5a89b61 4c66fc3d e25092a0 e62ab006 -l 71`{{execute}}<br>

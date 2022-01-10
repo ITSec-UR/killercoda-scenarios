@@ -1,9 +1,31 @@
-Die Berechnung des neuen MAC erfolgt über ein Python-Skript `sha1.py`, das eine initialisierbare Implementierung des SHA-1 Algorithmus beinhaltet.<br>
-
-Berechnen Sie den neuen MAC, indem Sie das Skript mit den folgenden Parametern ausführen:
-- Nachricht m
-- Initialisierungsvektor i 
-- Länge der erweiterten Nachricht l 
+Zuletzt müssen Sie für Ihre erweiterte Nachricht den passenden MAC berechnen.<br>
 <br>
+Bei dem SHA-1 Algorithmus wird für den Block n+1 der Output von Block n als Initialisierungsvektor (IV) benutzt. IV ist eine 5x4 Matrix, bestehend aus fünf 4-Byte Teilstrings (H<sub>i</sub>).
 
-`python3 sha1.py -m "&bus=50" -i 5e1498cb e5a89b61 4c66fc3d e25092a0 e62ab006 -l 71`{{execute}}<br>
+Da k || m<sub>1</sub> || Padding einen 64-Byte Block vollständig belegen, muss m<sub>2</sub> in einem neuen Block (n+1) verarbeitet werden.<br>
+
+Zur Erinnerung: SHA-1 folgt einer Merkle–Damgård Konstruktion, d. h. der Hashwert ist gegeben durch x=h<sub>IV</sub>(m). Beim Hash-Length-Extension wird der Hashwert für den Block n+1 weitergerechnet mit dem Ergebnis aus Block n, d. h. der gefälschte MAC ist gegeben durch mac<sub>2</sub>=h<sub>mac1</sub>(m<sub>2</sub>)
+<h4 style="font-size:12pt">15) Wie lauten die fünf Teilstrings des Initialisierungsvektors für den Block n+1 (mit m<sub>2</sub>)?</h4>
+*Tipp: Geben Sie sich den Wert für mac<sub>1</sub> aus. Sie können jederzeit Steps zurückgehen.*
+
+>>H<sub>0</sub><<
+=== 5e1498cb
+
+>>H<sub>1</sub><<
+=== e5a89b61
+
+>>H<sub>2</sub><<
+=== 4c66fc3d
+
+>>H<sub>3</sub><<
+=== e25092a0
+
+>>H<sub>4</sub><<
+=== e62ab006
+
+
+>>16) Welche Eingabe-Nachricht muss dem Algorithmus übergeben werden (Klartext)?<<
+=== &bus=50
+
+>>17) Welche Länge (Bytes) hat die erweiterte Nachricht?<<
+=== 71

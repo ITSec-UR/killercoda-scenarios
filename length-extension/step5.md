@@ -1,16 +1,23 @@
-Das Padding wurde wie folgt gebildet:<br>
-<strong>Padding = 80 || 00 * x || L<strong>
-- 80-Byte: Start-Wert für Padding
-- 00-Byte: Padding-Byte
-- x: Anzahl 00-Bytes des Paddings
-- L: 00 * 7 || 70 (big-endian)
+Sie wissen bereits, dass
+- der letzte Block 64 Bytes lang ist,
+- die Nachricht die Länge 5 hat,
+- jedes Zeichen der Nachricht durch ein Byte dargestellt wird,
+- das erste Byte des Paddings immer 80 ist,
+- und die letzen 8 Bytes, welche für die Länge L (Bits) der Nachricht reserviert sind.
 
+<h4 style="font-size:18pt">MAC = h(k || m)</h4>
+Nun betrachten wir die Berechnung des MAC. Bevor die Hashfunktion die Eingabe-Nachricht k || m verarbeitet, wird die Eingabe mit Padding-Bytes auf ein Vielfaches der Blocklänge von 64-Bytes erweitert, sodass der MAC wie folgt berechnet wurde:<br>
+<strong>MAC = h(k || m<sub>1</sub> || Padding)</strong>
 
->>13) Welchen Wert hat x?<<
-=== 41
+Sie vermuten, dass der Schlüssel die Länge 9 hat.
 
->> 14) Geben Sie das Padding in Hexadezimal-Bytes an (ohne Leerzeichen).<<
-=== 8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000070
+>>11) Wie lautet die Längenangabe am Ende des Paddings für die Nachricht k || m<sub>1</sub> (hexadezimal)?<<
+() 15
+() 14
+() 78
+(*) 70
+() 28
+() 62
 
-<br>
-*Tipp: Sie können einen Texteditor Ihrer Wahl verwenden oder in Katacoda eine neue Textdatei mit* `touch textfile.txt`{{execute}} *anlegen. Die neu erstellte Datei kann im oberen Textfeld bearbeitet werden.*
+>>12) Welche Länge (Bytes) hat das Padding insgesamt?<<
+=== 50

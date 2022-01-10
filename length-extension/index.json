@@ -2,45 +2,50 @@
     "title": "Length Extension",
     "description": "Length Extension Angriff am Beispiel von SHA-1",
     "difficulty": "Beginner",
-    "time": "10 Minuten",
+    "time": "20 Minuten",
     "details": {
       "steps": [
         {
-          "title": "Abgefangene Request (1)",
+          "title": "Hinweise und Lösungen",
           "text": "step1.md",
+          "courseData": "/assets/solution.sh https://gitlab.itsec.ur.de/itsec/uebung/length-extension/-/archive/master/length-extension-master.zip?path=katacoda-quiz-solution"
+        },
+        {
+          "title": "Abgefangene Request (1)",
+          "text": "step2.md",
           "code": "/assets/env_attacker.sh"
         }, 
         {
           "title": "Abgefangene Request (2)",
-          "text": "step2.md"
-        },        
-        {
-          "title": "Padding erstellen (1)",
           "text": "step3.md"
         },        
         {
-          "title": "Padding erstellen(2)",
+          "title": "Padding erstellen (1)",
           "text": "step4.md"
         },        
         {
-          "title": "Padding erstellen(3)",
+          "title": "Padding erstellen(2)",
           "text": "step5.md"
         },        
         {
-          "title": "Angriff (1)",
+          "title": "Padding erstellen(3)",
           "text": "step6.md"
         },        
         {
-          "title": "Angriff (2)",
+          "title": "Angriff (1)",
           "text": "step7.md"
         },        
         {
-          "title": "Angriff (3)",
+          "title": "Angriff (2)",
           "text": "step8.md"
         },        
         {
+          "title": "Angriff (3)",
+          "text": "step9.md"
+        },        
+        {
           "title": "Serverseitige Prüfung",
-          "text": "step9.md", 
+          "text": "step10.md", 
           "code": "/assets/env_server.sh"
         }
       ],
@@ -53,7 +58,8 @@
       }
     },
     "environment": {
-      "uilayout": "editor-terminal"
+      "uilayout": "editor-terminal",
+      "hideHiddenFiles": true
     },
     "backend": {
       "imageid": "ubuntu:2004"
