@@ -6,9 +6,8 @@ while [ "$counter" -lt 5 ] ; do
    if [ $? -ne 127 ] ; then break; else sleep 1 ; fi
 done
 source /root/.environment
-echo clear >> .fin.sh
-echo 'echo Configured' >> .fin.sh
-echo 'rm -- "$0"' >> .fin.sh
-chmod +x .fin.sh
+echo clear >> .clean.sh
+echo 'echo Configured' >> .clean.sh
+echo 'rm -- "$0"' >> .clean.sh
 history -c
-./.fin.sh
+bash .clean.sh
