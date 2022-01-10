@@ -8,7 +8,7 @@
         {
           "title": "Hinweise und Lösungen",
           "text": "step1.md",
-          "courseData": "/assets/solution.sh https://gitlab.itsec.ur.de/itsec/uebung/length-extension/-/archive/master/length-extension-master.zip?path=katacoda-quiz-solution"
+          "courseData": "/assets/install_solution.sh"
         },
         {
           "title": "Abgefangene Request (1)",
