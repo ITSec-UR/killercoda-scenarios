@@ -9,14 +9,6 @@ source /root/.environment
 echo clear >> .fin.sh
 echo 'echo Configured' >> .fin.sh
 echo 'rm -- "$0"' >> .fin.sh
+chmod +x .fin.sh
 history -c
-bash .fin.sh
-
-
-#cat > .fin.sh<<EOF
-#clear
-#printf "    \b\b\b\b"
-#echo ""
-#echo "Configured"
-#rm -- "\$0"
-#EOF
+./.fin.sh
