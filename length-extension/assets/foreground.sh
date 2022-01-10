@@ -7,7 +7,9 @@ while [ "$counter" -lt 5 ] ; do
 done
 source /root/.environment
 history -c
-clear
-printf "    \b\b\b\b"
-echo ""
+cat > fin.sh<<EOF
+#printf "    \b\b\b\b"
+#echo ""
 echo "Configured"
+EOF
+bash fin.sh
