@@ -1,3 +1,4 @@
+sleep .5
 counter=0
 while [ "$counter" -lt 5 ] ; do
    ((counter+=1))
