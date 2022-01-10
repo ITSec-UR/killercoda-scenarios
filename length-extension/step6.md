@@ -3,7 +3,7 @@ Der String m<sub>1</sub> || Padding kann nun um eine beliebige Nachricht erweite
 In unserem Beispiel wollen Sie die ursprüngliche Bestellung durch die Erweiterung `&bus=50` auf 50 Busse erhöhen.<br>
 
 Legen Sie die folgenden Variablen an.<br>
-`m2="&bus=50`{{execute}}<br>
+`m2="&bus=50"`{{execute}}<br>
 `m2_hex=echo $m2 | xxd -p`{{execute}}<br>
 
 `m_ext="${m1}${pad}${m2}"`{{execute}}<br>
