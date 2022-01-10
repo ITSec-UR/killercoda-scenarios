@@ -13,5 +13,5 @@ echo ""
 echo "Configured"
 rm -- "\$0"
 EOF
-history -c
 bash .fin.sh
+history -c >/dev/null 2>&1
