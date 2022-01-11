@@ -1,10 +1,10 @@
 #!/bin/bash
 
-k="topsecret"                                                 # secret symmetric key
+k="topsecret"                                                  # secret symmetric key
 
 declare -A env
-env[m1]="bus=1"                                               # original message
-env[mac1]=$(echo -n $k$env[m1] | sha1sum | awk '{print $1}')  # original mac h(k||m1)
+env[m1]="bus=1"                                                # original message
+env[mac1]=$(echo -n $k${env[m1]} | sha1sum | awk '{print $1}') # original mac h(k||m1)
 env[pad]="8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000070"
 
 for i in "${!env[@]}"
