@@ -2,9 +2,9 @@ sleep 1
 counter=0
 while [ "$counter" -lt 5 ] ; do
    ((counter+=1))
-   timeout 5 wait.sh
+   timeout 90 wait.sh
    exit_code=$?
-   if [ "$exit_code" -eq 124 ] ; then is_timeout="true"; fi
+   if [ "$exit_code" -eq 124 ] ; then export is_timeout="true"; fi
    if [ "$exit_code" -ne 127 ] ; then break; else sleep 1 ; fi
    
 done
