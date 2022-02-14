@@ -7,10 +7,10 @@ while [ "$counter" -lt 5 ] ; do
    if [ $exit_code -ne 127 ] ; then break; else sleep 1 ; fi
    
 done
+unset counter
 source /root/.environment
-echo -e 'unset counter\nunset exit_code' >> .clean.sh
 echo clear >> .clean.sh
-echo 'if [ $exit_code -eq 124 ]; then echo "Timeout (90s): Configuring"; else echo Configured; fi' >> .clean.sh
+echo 'if [[ "$exit_code" -eq 124 ]]; then echo "Timeout (90s): Configuring"; else echo Configured; fi' >> .clean.sh
 echo 'rm -- "$0"' >> .clean.sh
 cat /dev/null > ~/.bash_history && history -c
 bash .clean.sh
