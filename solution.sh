@@ -3,7 +3,6 @@
 INSTALL_PATH="/opt/containerd"
 NAME="${INSTALL_PATH}/solution-web"
 CONTAINER_NAME="web"
-MAX_WAIT=$(( 5 * 10 ))
 
 if [ ! -d "$INSTALL_PATH" ]; then
   mkdir -p $INSTALL_PATH
@@ -20,9 +19,7 @@ rm -rf "${INSTALL_PATH}/solution.zip"
 docker-compose -f ${NAME}/*/*/docker-compose.yml up -d
 
 # check if container is running
-counter=0
-until [[ "`docker inspect -f {{.State.Running}} $CONTAINER_NAME`" == "true" || $counter -gt $MAX_WAIT ]]; do
-   ((counter++))
+until [[ "`docker inspect -f {{.State.Running}} $CONTAINER_NAME`" == "true" ]]; do
    sleep 0.1;
 done;
 
