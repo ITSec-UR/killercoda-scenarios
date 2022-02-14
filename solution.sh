@@ -21,9 +21,9 @@ docker-compose -f ${NAME}/*/*/docker-compose.yml up -d
 
 # check if container is running
 counter=0
-until [ "`docker inspect -f {{.State.Running}} $CONTAINER_NAME`"=="true" ] || [ $counter -gt $MAX_WAIT ]; do
-    ((counter++))
-    sleep 0.1;
+until [[ $(docker inspect -f {{.State.Running}} $CONTAINER_NAME) == "true" || $counter -gt MAX_WAIT ]]; do
+   ((counter++))
+   sleep 0.1;
 done;
 
 rm -- "$0"
