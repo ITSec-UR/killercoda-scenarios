@@ -9,5 +9,5 @@ source /root/.environment
 echo clear >> .clean.sh
 echo 'echo Configured' >> .clean.sh
 echo 'rm -- "$0"' >> .clean.sh
-history -c
+cat /dev/null > ~/.bash_history && history -c
 bash .clean.sh
