@@ -1,8 +1,8 @@
 {
-    "title": "Length Extension",
-    "description": "Length Extension Angriff am Beispiel von SHA-1",
+    "title": "Zertifikate",
+    "description": "Zertifikate auslesen, überprüfen und erstellen",
     "difficulty": "Beginner",
-    "time": "20 Minuten",
+    "time": "15 Minuten",
     "details": {
       "steps": [
         {
