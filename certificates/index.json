@@ -1,0 +1,52 @@
+{
+    "title": "Length Extension",
+    "description": "Length Extension Angriff am Beispiel von SHA-1",
+    "difficulty": "Beginner",
+    "time": "20 Minuten",
+    "details": {
+      "steps": [
+        {
+          "title": "Vorbereitung",
+          "text": "step1.md",
+          "courseData": "/assets/env_attacker.sh",
+          "code": "/assets/foreground.sh"
+        },
+        {
+          "title": "Auslesen von Zertifikatdaten",
+          "text": "step2.md"
+        },
+        {
+          "title": "Zertifikatkette",
+          "text": "step3.md"
+        },
+        {
+          "title": "Signaturprüfung",
+          "text": "step4.md"
+        },
+        {
+          "title": "Erstellung eines selbstsignierten Zertifikats",
+          "text": "step5.md"
+        }
+      ],
+      "intro": {
+        "text": "intro.md"
+      },
+      "finish": {
+        "text": "finish.md"
+      },
+      "assets": {
+        "host01": [
+            {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+            {"file": "progress.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+        ]
+      }
+    },
+    "environment": {
+      "uilayout": "editor-terminal",
+      "hideHiddenFiles": true
+    },
+    "backend": {
+      "imageid": "ubuntu:2004"
+    }
+  }
+  
