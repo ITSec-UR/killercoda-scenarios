@@ -10,4 +10,4 @@ Zuletzt wird die Hashfunktion SHA-256 auf die Binärdatei angewandt, um den Hash
 
 >>9) Stimmt dieser Hashwert mit dem aus der Signatur überein?<<
 (*) Ja
-( ) Nein
+() Nein

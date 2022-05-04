@@ -9,7 +9,7 @@ Das Padding wurde wie folgt gebildet:<br>
 >>13) Welchen Wert hat x?<<
 === 41
 
->> 14) Geben Sie das Padding in Hexadezimal-Bytes an (ohne Leerzeichen).<<
+>>14) Geben Sie das Padding in Hexadezimal-Bytes an (ohne Leerzeichen).<<
 === 8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000070
 
 <br>
