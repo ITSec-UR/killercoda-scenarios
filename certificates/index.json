@@ -51,6 +51,7 @@
       }
     },
     "environment": {
+      "exclusionPatterns": ["/root/snap/"],
       "uilayout": "editor-terminal",
       "hideHiddenFiles": true
     },
