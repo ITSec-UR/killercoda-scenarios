@@ -7,9 +7,7 @@
       "steps": [
         {
           "title": "Manpage OpenSSL",
-          "text": "step0.md",
-          "courseData": "/assets/env_sig_check.sh",
-          "code": "/assets/foreground.sh"
+          "text": "step0.md"
         },
         {
           "title": "Auslesen von Zertifikatdaten",
