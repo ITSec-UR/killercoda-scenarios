@@ -1,8 +1,8 @@
-Zuerst soll der Hashwert aus der Signatur des Zertifikats ausgelesen werden.
+Zuerst soll der Hashwert aus der Signatur des Intermediär-Zertifikats ausgelesen werden.
 
-Der dazu nötige öffentliche Testschlüssel der Root CA ist `root.key` abgespeichert und die Signatur im Binärformat in `sig.bin`.
+Der dazu nötige öffentliche Testschlüssel der Root CA ist in `root.pub` und die Signatur im Binärformat in `sig.bin` abgespeichert.
 
-Entschlüsseln Sie zunächst die Signatur und speichern Sie das Ergebnis in einer neuen Datei.
+Wenden Sie zunächst den Testschlüssel auf die Signatur an und speichern Sie das Ergebnis in eine neue Datei.
 
 `openssl rsautl -verify -inkey root.key -in sig.bin -pubin > sig-dec.bin`{{execute}}
 

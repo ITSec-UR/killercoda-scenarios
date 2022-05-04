@@ -45,7 +45,7 @@
             {"file": "webpage.cer", "target": "/root/"},
             {"file": "chain.cer", "target": "/root/"},            
             {"file": "intermediate.cer", "target": "/root/"},
-            {"file": "root.key", "target": "/root/"},
+            {"file": "root.pub", "target": "/root/"},
             {"file": "sig.bin", "target": "/root/"}
         ]
       }
