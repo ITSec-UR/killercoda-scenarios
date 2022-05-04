@@ -7,7 +7,7 @@ In Ihrem Arbeitsbereich ist ein Zertifikat für eine Website mit Cocktail Rezept
 === cocktails.de
 
 >>2) Von welcher Organisation wurde das Zertifikat ausgestellt?<< 
-=== Let's Encrypt
+=== Let'sEncrypt
 
 >>3) Wann verliert das Zertifikat seine Gültigkeit? (Format: TT.MM.JJJJ)<<
 === 08.07.2022
