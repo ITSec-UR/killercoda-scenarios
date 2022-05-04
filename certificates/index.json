@@ -42,8 +42,7 @@
       },
       "assets": {
         "host01": [
-            {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
-            {"file": "progress.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+            {"file": ["webpage.cer", "chain.cer", "root.key", "sig.bin"], "target": "/root", "chmod": "+r"}
         ]
       }
     },

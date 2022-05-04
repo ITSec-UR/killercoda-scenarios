@@ -34,10 +34,7 @@
     },
     "assets": {
       "host01": [
-        {
-          "file": "VM.svg",
-          "target": "~/docker"
-        }
+          {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"}
       ]
     }
   },

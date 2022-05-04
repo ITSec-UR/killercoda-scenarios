@@ -9,4 +9,5 @@ Zuletzt wird die Hashfunktion SHA-256 auf die Binärdatei angewandt, um den Hash
 `openssl dgst -sha256 cert-body.bin`{{execute}}
 
 >>9) Stimmt dieser Hashwert mit dem aus der Signatur überein?<<
-=== JA
+(*) Ja
+( ) Nein
