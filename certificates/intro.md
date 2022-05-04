@@ -1,1 +1,1 @@
-Szenario zu Zertifikaten
+*Kurzer Text zu Zertifikaten*

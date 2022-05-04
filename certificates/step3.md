@@ -4,4 +4,4 @@ Dazu wird im ersten Schritt die im Zertifikat enthaltene Signatur ausgelesen und
 
 Im zweiten Schritt wird überprüft, ob bei der Anwendung der Hashfunktion auf das ursprüngliche Zertifikat derselbe Hashwert berechnet wird.
 
-Stimmen die beiden Hashwerte überein, ist die Signatur authentisch. Das vorliegende Zertifikat der CA 'R3' wurde also tatsächlich von der Root CA 'ISRG Root X1' ausgestellt.
+Stimmen die beiden Hashwerte überein, ist die Signatur authentisch. Das vorliegende Zertifikat von Let's Encrypt (R3) wurde also tatsächlich von der Internet Secure Research Group (ISRG) ausgestellt.
