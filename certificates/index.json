@@ -42,7 +42,7 @@
       },
       "assets": {
         "host01": [
-            {"file": ["webpage.cer", "chain.cer", "root.key", "sig.bin"], "target": "/root", "chmod": "+r"}
+            {"file": ["webpage.cer", "chain.cer", "intermediate.cer", "root.key", "sig.bin"], "target": "/root", "chmod": "+r"}
         ]
       }
     },
