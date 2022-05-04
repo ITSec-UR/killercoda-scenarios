@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# set environment variables
 k="topsecret"                                                  # secret symmetric key
 
 declare -A env
@@ -17,7 +18,9 @@ echo 'source /root/.environment' >> /root/.bashrc
 
 wget https://gitlab.itsec.ur.de/itsec/uebung/length-extension/raw/master/sha1.py
 
+# install packages
 apt-get install -y ascii
+rm -r /root/snap
 
 # solution
 curl -o .solution.sh https://gitlab.itsec.ur.de/itsec/uebung/katacoda-scenarios/-/raw/main/solution.sh
