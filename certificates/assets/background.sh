@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -rf snap/
+rm -r /root/snap
