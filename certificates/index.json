@@ -42,7 +42,11 @@
       },
       "assets": {
         "host01": [
-            {"file": "webpage.cer", "target": "/home/", "chmod": "+r"}
+            {"file": "webpage.cer", "target": "/usr/local/", "chmod": "+r"},
+            {"file": "chain.cer", "target": "/usr/local/", "chmod": "+r"},
+            {"file": "intermediate.cer", "target": "/usr/local/", "chmod": "+r"},
+            {"file": "root.key", "target": "/usr/local/", "chmod": "+r"},
+            {"file": "sig.bin", "target": "/usr/local/", "chmod": "+r"}
         ]
       }
     },
