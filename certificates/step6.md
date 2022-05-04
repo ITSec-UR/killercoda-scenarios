@@ -4,4 +4,4 @@ Erstellen Sie ein selbstsigniertes Zertifikat für eine Domain Ihrer Wahl (`my-d
 
 Lassen Sie sich den Inhalt des Zertifikats anzeigen und überprüfen Sie die Richtigkeit der enthaltenen Daten.
 
-`openssl -text -noout my-domain.cer`{{execute}}
+`openssl x509 -text -noout -in my-domain.cer`{{execute}}
