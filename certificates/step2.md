@@ -1,16 +1,9 @@
-In Ihrem Arbeitsbereich ist ein Zertifikat für die Website `cocktail.de` hinterlegt. Lassen Sie sich den Inhalt des Zertifikats mithilfe von OpenSSL anzeigen und beantworten Sie die folgenden Fragen.
+Lassen Sie sich die Zertifikatkette der Website in der Datei `chain.cer` anzeigen.
 
-`openssl -text -noout cocktails.de.crt`{{execute}}
-<br>
+`openssl crl2pkcs7 -nocrl -certfile chain.cer | openssl pkcs7 -print_certs -text -noout`{{execute}}
 
->>1) Welcher Signaturalgorithmus wurde verwendet? Kopieren Sie den exakten Wert aus dem Zertifikat in das Antwortfeld.<<
-=== sha256WithRSAEncryption
+>>6) Geben Sie den Namen der Root Certificate Authority an.<<
+=== ISRG Root X1
 
->>2) Von welcher Organisation wurde das Zertifikat ausgestellt?<< 
-=== Let's Encrypt
-
->>3) Wann verliert das Zertifikat seine Gültigkeit? (Format: TT.MM.JJJJ)<<
-=== 08.07.2022
-
->>4) Wie viele Monate ist das Zertifikat gültig?
-=== 3
+>>7) Geben Sie den Namen der Intermediate Certificate Authority an.<<
+=== R3

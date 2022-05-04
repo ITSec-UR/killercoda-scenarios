@@ -6,26 +6,34 @@
     "details": {
       "steps": [
         {
-          "title": "Vorbereitung",
-          "text": "step1.md",
-          "courseData": "/assets/env_attacker.sh",
+          "title": "Manpage OpenSSL",
+          "text": "step0.md",
+          "courseData": "/assets/env_sig_check.sh",
           "code": "/assets/foreground.sh"
         },
         {
           "title": "Auslesen von Zertifikatdaten",
-          "text": "step2.md"
+          "text": "step1.md"
         },
         {
           "title": "Zertifikatkette",
-          "text": "step3.md"
+          "text": "step2.md"
         },
         {
           "title": "Signaturprüfung",
+          "text": "step3.md"
+        },
+        {
+          "title": "Signaturprüfung (1)",
           "text": "step4.md"
         },
         {
-          "title": "Erstellung eines selbstsignierten Zertifikats",
+          "title": "Signaturprüfung (2)",
           "text": "step5.md"
+        },
+        {
+          "title": "Erstellung eines selbstsignierten Zertifikats",
+          "text": "step6.md"
         }
       ],
       "intro": {
