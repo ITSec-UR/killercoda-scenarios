@@ -2,7 +2,7 @@
 
 INSTALL_PATH="/opt/containerd"
 NAME="${INSTALL_PATH}/solution-web"
-CONTAINER_NAME="web"
+CONTAINER_NAME="web-solution"
 
 if [ ! -d "$INSTALL_PATH" ]; then
   mkdir -p $INSTALL_PATH
