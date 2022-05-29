@@ -7,9 +7,7 @@
     "steps": [
       {
         "title": "Hinweise und Lösungen",
-        "text": "step-0.md",
-        "courseData": "/assets/background.sh",
-        "code": "/assets/foreground.sh"
+        "text": "step-0.md"
       },
       {
         "title": "(1) Anmeldung ohne Passwort",
@@ -41,15 +39,6 @@
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "host01": [
-        {
-          "file": "wait.sh",
-          "target": "/usr/local/bin/",
-          "chmod": "+x"
-        }
-      ]
     }
   },
   "environment": {
