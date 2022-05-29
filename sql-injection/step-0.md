@@ -1,0 +1,1 @@
+Für die folgenden Aufgaben stehen Ihnen Lösungen bereit unter https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/.

@@ -1,0 +1,63 @@
+{
+  "title": "SQL-Injection",
+  "description": "SQL-Injections in drei Varianten",
+  "difficulty": "Beginner",
+  "time": "30 Minuten",
+  "details": {
+    "steps": [
+      {
+        "title": "Hinweise und Lösungen",
+        "text": "step-0.md",
+        "courseData": "/assets/background.sh",
+        "code": "/assets/foreground.sh"
+      },
+      {
+        "title": "(1) Anmeldung ohne Passwort",
+        "text": "step-1.md"
+      },
+      {
+        "title": "(2.1) Datenbankname",
+        "text": "step-2-1.md"
+      },
+      {
+        "title": "(2.2) Tabellen",
+        "text": "step-2-2.md"
+      },
+      {
+        "title": "(2.3) Spalten",
+        "text": "step-2-3.md"
+      },
+      {
+        "title": "(2.4) Nutzername",
+        "text": "step-2-4.md"
+      },
+      {
+        "title": "(2.5) Passwort",
+        "text": "step-2-5.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "wait.sh",
+          "target": "/usr/local/bin/",
+          "chmod": "+x"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "hideHiddenFiles": true
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
+  
