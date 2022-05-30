@@ -64,7 +64,8 @@
     },
     "environment": {
       "uilayout": "editor-terminal",
-      "hideHiddenFiles": true
+      "hideHiddenFiles": true,
+      "exclusionPatterns": [".*"]
     },
     "backend": {
       "imageid": "ubuntu:2004"
