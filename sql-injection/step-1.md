@@ -1,6 +1,4 @@
-Webseite für Aufgabe 1:
-
-https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
+[Webseite für Aufgabe 1]({{TRAFFIC_HOST1_80}})
 
 Auf dieser Webseite ist eine einfache SQL-Injection zur Anmeldung ohne Passwort möglich.
 Überlegen Sie sich, wie das zur Authentifikation verwendete SQL-Statement aussehen könnte und finden Sie einen Nutzernamen, 

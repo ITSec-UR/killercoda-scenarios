@@ -1,6 +1,4 @@
-Webseite für Aufgabe 2:
-
-https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
+[Webseite für Aufgabe 2]({{TRAFFIC_HOST1_81}})
 
 In der zweiten Version der Webseite wurden die verwendeten SQL-Abfragen leicht verbessert.
 

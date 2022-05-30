@@ -1,1 +1,1 @@
-[Für diese Aufgabe stehen Ihnen Hinweise und Lösungen bereit]({{TRAFFIC_HOST1_8080}})
+[Für diese Aufgabe stehen Ihnen Hinweise und Lösungen bereit.]({{TRAFFIC_HOST1_8080}})
