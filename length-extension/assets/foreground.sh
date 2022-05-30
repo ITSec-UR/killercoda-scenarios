@@ -14,5 +14,6 @@ source /root/.environment
 echo clear >> .clean.sh
 echo 'if [[ "$is_timeout" == "true" ]]; then echo -e "Timeout (120s): Configuring\nYou have two options:\n  (a) Try to reload this scenario or come back later.\n  (b) Go on. Most functions should work anyway."; else echo Configured; fi' >> .clean.sh
 echo 'rm -- "$0"' >> .clean.sh
+chmod +x ./.clean.sh
 cat /dev/null > ~/.bash_history && history -c
-bash .clean.sh
+./.clean.sh

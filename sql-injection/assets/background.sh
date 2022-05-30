@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Install required packages
+apt install bash
+
+# SQL-Injection Webpages
 SOURCE="https://gitlab.itsec.ur.de/itsec/uebung/sql-injection/-/archive/main/sql-injection-main.zip"
 
 INSTALL_PATH="/opt/containerd"
