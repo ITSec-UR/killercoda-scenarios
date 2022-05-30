@@ -14,24 +14,28 @@
         "text": "step-1.md"
       },
       {
-        "title": "(2.1) Datenbankname",
+        "title": "(2.1) Anmeldung mit selbst gewählten Zugangsdaten",
         "text": "step-2-1.md"
       },
       {
-        "title": "(2.2) Tabellen",
+        "title": "(2.2) Datenbankname",
         "text": "step-2-2.md"
       },
       {
-        "title": "(2.3) Spalten",
+        "title": "(2.3) Tabellen",
         "text": "step-2-3.md"
       },
       {
-        "title": "(2.4) Nutzername",
+        "title": "(2.4) Spalten",
         "text": "step-2-4.md"
       },
       {
-        "title": "(2.5) Passwort",
+        "title": "(2.5) Nutzername",
         "text": "step-2-5.md"
+      },
+      {
+        "title": "(2.6) Passwort",
+        "text": "step-2-6.md"
       }
     ],
     "intro": {
