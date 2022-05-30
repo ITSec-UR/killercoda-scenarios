@@ -14,11 +14,15 @@
         "text": "step-1.md"
       },
       {
-        "title": "(2.1) Anmeldung mit selbst gewählten Zugangsdaten",
+        "title": "(2.0) SQL-Injection über Login-Formular",
+        "text": "step-2-0.md"
+      },
+      {
+        "title": "(2.1) Anmeldung mit beliebigen Zugangsdaten",
         "text": "step-2-1.md"
       },
       {
-        "title": "(2.2) Datenbankname",
+        "title": "(2.2) Datenbank",
         "text": "step-2-2.md"
       },
       {
@@ -36,6 +40,26 @@
       {
         "title": "(2.6) Passwort",
         "text": "step-2-6.md"
+      },
+      {
+        "title": "(3.0) SQL-Injection über URL-Parameter",
+        "text": "step-3-0.md"
+      },
+      {
+      "title": "(3.1) Datenbank",
+      "text": "step-3-1.md"
+      },
+      {
+        "title": "(3.2) Tabellen",
+        "text": "step-3-2.md"
+      },
+      {
+        "title": "(3.3) Spalten",
+        "text": "step-3-3.md"
+      },
+      {
+        "title": "(3.4) Zugangsdaten",
+        "text": "step-3-4.md"
       }
     ],
     "intro": {
