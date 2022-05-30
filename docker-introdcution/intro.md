@@ -10,4 +10,5 @@ Containerization wird immer beliebter, denn Container sind:
 
 Docker ist eine Container-Virtualisierungslösung, mit der einzelne Anwendungen oder Dienste zu sogenannten Containern kombiniert und isoliert ausgeführt werden können. Zu diesem Zweck wird zunächst ein Image erstellt, das die zur Ausführung der Anwendung erforderlichen Informationen enthält. Wenn Sie ein solches Image mit Hilfe von Docker starten, erhalten Sie einen Container, in dem die Anwendung isoliert ausgeführt wird. Dadurch lassen sich Interferenzen zwischen installierten Libraries oder Programmen (inkl. verschiedener Versionen) verhindern. Im Vergleich zu Virtual Machines (VM) sind Container leichtgewichtiger, da auf das gleiche Betriebsystem (OS) zurückgegriffen wird.
 
-![Bestandteile VM](https://raw.githubusercontent.com/Luycia/katacoda-scenarios/main/docker-introdcution/assets/VM.svg) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Bestandteile Docker](https://raw.githubusercontent.com/Luycia/katacoda-scenarios/main/docker-introdcution/assets/Docker.svg)
+<img src="assets/VM.svg">
+<img src="assets/Docker.svg">

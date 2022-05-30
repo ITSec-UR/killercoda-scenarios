@@ -19,5 +19,5 @@ Erstellen Sie nun die `index.html`. Legen Sie dazu zunächst eine neue Datei an 
 Alternativ können Sie auch `echo` nutzen.  
 `echo -e '<!DOCTYPE html>\n<html>\n<head>\n<title>Example</title>\n</head>\n<body>\n<h2>Hello World</h2>\n</body>\n</html>' > /root/html/index.html`{{execute}}
 
-Öffnen Sie nun Ihre Webseite.  
-https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
+
+[Öffnen Sie nun Ihre Webseite.]({{TRAFFIC_HOST1_80}})
