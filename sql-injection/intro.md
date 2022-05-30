@@ -10,3 +10,5 @@ und Login-Daten ausgelesen werden.
 (2) Datenbankstruktur und Anmeldedaten über Login-Formular auslesen (Schritt 2.1 bis 2.5)
 <br>
 (3) Datenbankstruktur und Anmeldedaten über URL-Parameter auslesen (Schritt 3.1 bis 3.x)
+
+Ihnen ist bereits bekannt, dass die Webseite in PHP geschrieben wurde und eine MySQL Datenbank verwendet.

