@@ -7,7 +7,7 @@ und Login-Daten ausgelesen werden.
 <br>
 (1) Anmeldung ohne Passwort (Schritt 1)
 <br>
-(2) Datenbankstruktur und Anmeldedaten über Login-Formular auslesen (Schritt 2.1 bis 2.5)
+(2) Datenbankstruktur und Anmeldedaten über Login-Formular auslesen (Schritt 2.1 bis 2.6)
 <br>
 (3) Datenbankstruktur und Anmeldedaten über URL-Parameter auslesen (Schritt 3.1 bis 3.x)
 
