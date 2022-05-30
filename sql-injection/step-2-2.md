@@ -7,4 +7,4 @@ Statement:
 ' UNION SELECT database(), MD5('pass'), 1, 1;--
 
 >>3) Wie lautet der Name der Datenbank?<<
-     === advanced_db
+=== advanced_db

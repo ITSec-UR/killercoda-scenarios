@@ -15,4 +15,4 @@ Nutzername: ' AND 1=0 SELECT 'name', MD5('pass'), 1, 1;--
 Passwort: pass
 
 >>2) Wie viele weitere Spalten enthält die Tabelle?<<
-     === 2
+=== 2

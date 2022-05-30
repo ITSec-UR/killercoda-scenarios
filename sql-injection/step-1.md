@@ -12,4 +12,4 @@ Probieren Sie häufige Variationen für den Nutzernamen des Administrator-Kontos
 </i>
 
 >>1) Wie lautet das nötige SQL-Statement?<<
-     === Admin;-- 
+=== Admin;-- 

