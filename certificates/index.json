@@ -7,8 +7,7 @@
       "steps": [
         {
           "title": "Grundlagen von OpenSSL",
-          "text": "step0.md",
-          "courseData": "/assets/background.sh"
+          "text": "step0.md"
         },
         {
           "title": "Auslesen von Zertifikatdaten",
