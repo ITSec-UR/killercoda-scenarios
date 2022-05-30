@@ -1,10 +1,7 @@
-# Interactive Katacoda Scenarios
+# Killercoda Scenario Examples
 
-[![](http://shields.katacoda.com/katacoda/ur-itsec2/count.svg)](https://www.katacoda.com/ur-itsec2 "Get your profile on Katacoda.com")
+See these in action here: https://killercoda.com/examples
 
-Visit https://www.katacoda.com/ur-itsec2 to view the profile and interactive scenarios
+Documentation: https://killercoda.com/creators
 
-### Writing Scenarios
-Visit https://www.katacoda.com/docs to learn more about creating Katacoda scenarios
-
-For examples, visit https://github.com/katacoda/scenario-example
+For grouping scenarios into courses check https://github.com/killercoda/scenario-examples-courses
