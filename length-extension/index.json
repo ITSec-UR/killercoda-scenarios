@@ -8,8 +8,8 @@
         {
           "title": "Hinweise und Lösungen",
           "text": "step1.md",
-          "background": "/assets/env_attacker.sh",
-          "foreground": "/assets/foreground.sh"
+          "background": "./assets/env_attacker.sh",
+          "foreground": "./assets/foreground.sh"
         },
         {
           "title": "Abgefangene Request (1)",
@@ -46,8 +46,8 @@
         {
           "title": "Serverseitige Prüfung",
           "text": "step10.md", 
-          "background": "/assets/env_server.sh",
-          "foreground": "/assets/foreground.sh"
+          "background": "./assets/env_server.sh",
+          "foreground": "./assets/foreground.sh"
         }
       ],
       "intro": {

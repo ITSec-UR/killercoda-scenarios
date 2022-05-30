@@ -23,7 +23,7 @@ apt-get install -y ascii
 rm -r /root/snap
 
 # solution
-curl -o .solution.sh https://gitlab.itsec.ur.de/itsec/uebung/katacoda-scenarios/-/raw/main/solution.sh
+curl -o .solution.sh https://gitlab.itsec.ur.de/itsec/uebung/killercoda-scenarios/-/raw/main/solution.sh
 bash .solution.sh https://gitlab.itsec.ur.de/itsec/uebung/length-extension/-/archive/master/length-extension-master.zip?path=katacoda-quiz-solution
 
-echo "done" >> /root/.katacoda-finished
+echo "done" >> /root/.killercoda-finished

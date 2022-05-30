@@ -8,7 +8,7 @@ show_progress()
   local spinstr='\|/-'
   local temp
   while true; do 
-    sudo grep -i "done" /root/.katacoda-finished &> /dev/null
+    sudo grep -i "done" /root/.killercoda-finished &> /dev/null
     if [[ "$?" -ne 0 ]]; then     
       temp="${spinstr#?}"
       printf " [%c]  " "${spinstr}"
@@ -19,7 +19,7 @@ show_progress()
       break
     fi
   done
-  rm /root/.katacoda-finished
+  rm /root/.killercoda-finished
 }
 
 clear
