@@ -20,4 +20,4 @@ Alternativ können Sie auch `echo` nutzen.
 `echo -e '<!DOCTYPE html>\n<html>\n<head>\n<title>Example</title>\n</head>\n<body>\n<h2>Hello World</h2>\n</body>\n</html>' > /root/html/index.html`{{execute}}
 
 
-[Öffnen Sie nun Ihre Webseite.]({{TRAFFIC_HOST1_80}})
+Öffnen Sie nun Ihre [Webseite]({{TRAFFIC_HOST1_80}}).

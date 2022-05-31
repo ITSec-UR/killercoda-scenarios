@@ -3,9 +3,9 @@ Hosten Sie einen nginx-Server mithilfe von Docker. Nginx ist ein kostenloser und
 
 Option | Beschreibung 
 --- | --- |
- *p* | Port Mapping (Host:Container) - Bindet den Port des Containers am Host, d.h. der Service des Containers ist nun von außen erreichbar.
- *v* | Volume (Host:Container) - Mountet den Ordner vom Host im Container, d.h. auf die Daten im Ordner können sowohl Host als auch Container zugreifen und miteinander ausgetauscht werden.
- *d* | Detached - Container wird als Daemon gestartet, d.h. dieser läuft im Hintergrund.
+ *p* | Port Mapping (Host:Container) - Bindet den Port des Containers am Host, d. h. der Service des Containers ist nun von außen erreichbar.
+ *v* | Volume (Host:Container) - Mountet den Ordner vom Host im Container, d. h. auf die Daten im Ordner können sowohl Host als auch Container zugreifen und miteinander ausgetauscht werden.
+ *d* | Detached - Container wird als Daemon gestartet, d. h. dieser läuft im Hintergrund.
 
 Der ausgeführte Befehl gibt die einzigartige ID des Containers zurück. Mit dieser können Sie später den Container ansteuern.
 
