@@ -1,5 +1,5 @@
-Der Server erhält eine Nachricht `m_rec = m_ext` und einen MAC. Er kennt zudem auch den gemeinsamen Schlüssel k.<br>
-Lesen Sie die Werte der Variablen  `k`, `m_rec` und `mac` aus:
+Der Server erhält eine Nachricht `m_rec = m_ext`{{}} und einen MAC. Er kennt zudem auch den gemeinsamen Schlüssel k.<br>
+Lesen Sie die Werte der Variablen  `k`{{}}, `m_rec`{{}} und `mac`{{}} aus:
 - `echo $k`{{execute}}
 - `echo $m_rec`{{execute}}
 - `echo $mac`{{execute}}

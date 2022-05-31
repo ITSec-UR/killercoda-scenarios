@@ -24,7 +24,7 @@ Informieren Sie sich in [RFC3174 Abschnitt 4](https://datatracker.ietf.org/doc/h
 
 <br>
 
-#### Beispiel: Nachricht m<sub>1</sub> = "bus=1"
+### Beispiel: Nachricht m<sub>1</sub> = "bus=1"
 
 >>9) Welchen Wert hat L im Beispiel? (Tipp: Verwenden Sie hexdump zum Zählen der Bytes.)<<
 () 5
@@ -42,4 +42,4 @@ Informieren Sie sich in [RFC3174 Abschnitt 4](https://datatracker.ietf.org/doc/h
 (*) 28
 () 05
 
-*Tipp: Rechnen Sie den Wert L in einen Hexadezimalwert um.*
+<i>Tipp: Rechnen Sie den Wert L in einen Hexadezimalwert um.</i>
