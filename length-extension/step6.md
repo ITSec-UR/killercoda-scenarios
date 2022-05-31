@@ -12,5 +12,5 @@ Das Padding wurde wie folgt gebildet:<br>
 >>14) Geben Sie das Padding in Hexadezimal-Bytes an (ohne Leerzeichen).<<
 === 8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000070
 
-<i>Tipp: Sie können einen Texteditor Ihrer Wahl verwenden oder in Killercoda eine neue Textdatei mit `touch textfile.txt`{{execute}} anlegen. 
+<i>Tipp: Sie können einen Texteditor Ihrer Wahl verwenden oder in Killercoda eine neue Textdatei mit </i> `touch textfile.txt`{{execute}} <i>anlegen. 
 Die neu erstellte Datei kann im Editor Tab (links neben dem Terminal Tab) bearbeitet werden.</i>

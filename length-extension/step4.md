@@ -1,7 +1,7 @@
 Neben der Nachricht und deren MAC kennen Sie die zur Berechnung des MAC verwendete Hashfunktion: <strong>SHA-1</strong><br>
-<br>
-Informieren Sie sich in [RFC3174 Abschnitt 4](https://datatracker.ietf.org/doc/html/rfc3174#page-4) über den Aufbau des Paddings bei SHA-1 und beantworten Sie die folgenden Fragen.
-<br>
+
+Informieren Sie sich in [RFC3174 Abschnitt 4](https://datatracker.ietf.org/doc/html/rfc3174#page-4) 
+über den Aufbau des Paddings bei SHA-1 und beantworten Sie die folgenden Fragen.
 
 >>3) Wie viele Bytes umfasst ein Block beim SHA-1?<<
 === 64
