@@ -1,4 +1,4 @@
-Nun soll der Hashwert des Zertifikats `intermediate.cer` berechnet werden.
+Nun soll der Hashwert des Zertifikats `intermediate.cer`{{}} berechnet werden.
 
 Ein Zertifikat enthält bei der Berechnung des Hashwerts noch keine Signatur, daher muss die Signatur aus dem vorliegenden Zertifikat entfernt und der übrige Inhalt im Binärformat in einer neuen Datei `cert-body.bin` abgespeichert werden.
 

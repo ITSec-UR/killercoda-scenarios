@@ -1,4 +1,4 @@
-Lassen Sie sich die Zertifikatkette der Website in der Datei `chain.cer` anzeigen.
+Lassen Sie sich die Zertifikatkette der Website in der Datei `chain.cer`{{}} anzeigen.
 
 `openssl crl2pkcs7 -nocrl -certfile chain.cer | openssl pkcs7 -print_certs -text -noout |  grep 'Issuer:\|Subject:'`{{execute}}
 

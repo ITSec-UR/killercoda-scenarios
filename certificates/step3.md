@@ -1,4 +1,4 @@
-Nun soll die die Signatur der Root CA (ISRG Root X1) auf dem Zertifikat `intermediate.cer` (R3) überprüft werden.
+Nun soll die die Signatur der Root CA (ISRG Root X1) auf dem Zertifikat `intermediate.cer`{{}} (R3) überprüft werden.
 
 Dazu wird im ersten Schritt die im Zertifikat enthaltene Signatur ausgelesen und der öffentliche Testschlüssel der Root CA angewandt, um den Hashwert des Zertifikats zu erhalten. 
 
