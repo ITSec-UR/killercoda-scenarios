@@ -1,4 +1,4 @@
-<img src="./assets/intro.jpg">
+<img src="https://gitlab.itsec.ur.de/itsec/uebung/killercoda-scenarios/-/raw/main/length-extension/assets/intro.svg">
 
 Bob ist Inhaber eines kleinen Reiseunternehmens und möchte einen seiner Busse durch ein neueres Modell ersetzen. 
 Er sendet dazu eine Bestellung an einen Fahrzeughersteller (FH). 
