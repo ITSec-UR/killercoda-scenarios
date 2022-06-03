@@ -7,7 +7,7 @@ Die vier Teilaufgaben des Szenarios umfassen
 3) Manuelle Überprüfung der Signatur einer Root CA auf dem Zertifikat einer untergeordneten CA
 4) Erstellen eines selbstsignierten Zertifikats mit eigenen Daten
 
-<img src="src="https://gitlab.itsec.ur.de/itsec/uebung/killercoda-scenarios/-/raw/main/certificates/assets/openssl-logo.svg">
+<img src="https://gitlab.itsec.ur.de/itsec/uebung/killercoda-scenarios/-/raw/main/certificates/assets/openssl-logo.svg">
 
 OpenSSL ist eine freie Software für TLS, welche auf UNIX Systemen vorinstalliert ist. 
 Sie umfasst Implementierungen der Netzwerkprotokolle und verschiedener Verschlüsselungen sowie das Programm `openssl`{{}} 
