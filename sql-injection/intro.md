@@ -6,7 +6,9 @@ und Login-Daten ausgelesen werden.
 ## Überblick der Aufgaben:
 
 (1) Anmeldung ohne Passwort (Schritt 1)
+
 (2) Datenbankstruktur und Anmeldedaten über Login-Formular auslesen (Schritt 2.0 bis 2.6)
+
 (3) Datenbankstruktur und Anmeldedaten über URL-Parameter auslesen (Schritt 3.0 bis 3.4)
 
 Ihnen ist bereits bekannt, dass die Webseite in PHP geschrieben wurde und eine MySQL Datenbank verwendet.
