@@ -9,6 +9,8 @@ Lassen Sie sich die Nachricht in Hexadezimalschreibweise ausgeben.
 
 `echo -n $m1 | hexdump -C`{{exec}}
 
-1 > Kopieren Sie den Hexadezimalstring (inklusive der Leerzeichen) in das Antwortfeld.
+1 
+> Kopieren Sie den Hexadezimalstring (inklusive der Leerzeichen) in das Antwortfeld.
 
-2 > Wie viele Bytes umfasst die Nachricht?
+2 
+> Wie viele Bytes umfasst die Nachricht?

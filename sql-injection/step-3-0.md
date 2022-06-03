@@ -3,4 +3,5 @@
 Sie haben Zugriff auf eine öffentliche Website mit einigen Artikeln zu Heißluftballons.
 Öffnen Sie die Detailansicht einiger Beiträge und beobachten Sie, wie sich die URL verändert.
 
-10 > Welchen URL-Parameter könnten Sie für eine SQL-Injection nutzen?
+10
+> Welchen URL-Parameter könnten Sie für eine SQL-Injection nutzen?
