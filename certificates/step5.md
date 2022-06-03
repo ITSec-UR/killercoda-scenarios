@@ -8,4 +8,4 @@ Zuletzt wird die Hashfunktion SHA-256 auf die Datei angewandt, um den Hashwert z
 
 `sha256sum cert-body.bin`{{execute}}
 
->>9) Stimmt dieser Hashwert mit dem aus der Signatur überein?
+>9) Stimmt dieser Hashwert mit dem aus der Signatur überein?
