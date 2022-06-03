@@ -4,4 +4,4 @@ Auf dieser Webseite ist eine einfache SQL-Injection zur Anmeldung ohne Passwort 
 Überlegen Sie sich, wie das zur Authentifikation verwendete SQL-Statement aussehen könnte und finden Sie einen Nutzernamen, 
 unter dem Sie sich anmelden können.
 
->1) Wie lautet das SQL-Statement zur Anmeldung ohne Passwort?
+>1: Wie lautet das SQL-Statement zur Anmeldung ohne Passwort?
