@@ -1,7 +1,7 @@
-In Ihrem Arbeitsbereich ist ein Zertifikat für eine Website mit Cocktail Rezepten hinterlegt. Lassen Sie sich den Inhalt des Zertifikats mithilfe von OpenSSL anzeigen und beantworten Sie die folgenden Fragen.
+In Ihrem Arbeitsbereich ist ein Zertifikat für eine Website mit Cocktail Rezepten hinterlegt. 
+Lassen Sie sich den Inhalt des Zertifikats mithilfe von OpenSSL anzeigen und beantworten Sie die folgenden Fragen.
 
 `openssl x509 -text -noout -in webpage.cer`{{execute}}
-<br>
 
 >>1) Wer ist der Inhaber des Zertifikats?<<
 === cocktails.de

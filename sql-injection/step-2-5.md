@@ -1,9 +1,6 @@
 Finden Sie den Nutzernamen des Accounts mit den höchsten Rechten heraus.
 
-Tipp: Mit dem Schlüsselwort `LIKE` können Sie nach Mustern in Strings suchen.
+_Tipp: Mit dem Schlüsselwort_ `LIKE`{{}} _können Sie nach Mustern in Strings suchen._
 
-Statement:
-' AND 1=0 UNION SELECT (SELECT name FROM people WHERE name LIKE '_dmin%'), MD5('pass'), 1, 1;--
-
->>6) Geben Sie den gefundenen Nutzernamen an.<<
+>>7) Geben Sie den gefundenen Nutzernamen an.<<
 === Administrator

@@ -1,4 +1,4 @@
-Neben der Nachricht und deren MAC kennen Sie die zur Berechnung des MAC verwendete Hashfunktion: <strong>SHA-1</strong><br>
+Neben der Nachricht und deren MAC kennen Sie die zur Berechnung des MAC verwendete Hashfunktion: **SHA-1**
 
 Informieren Sie sich in [RFC3174 Abschnitt 4](https://datatracker.ietf.org/doc/html/rfc3174#page-4) 
 über den Aufbau des Paddings bei SHA-1 und beantworten Sie die folgenden Fragen.

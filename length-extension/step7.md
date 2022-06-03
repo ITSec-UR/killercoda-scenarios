@@ -10,6 +10,8 @@ Legen Sie die folgenden Variablen an.
 
 `m_ext="${m1}${pad}${m2}"`{{execute}}
 
-Sie haben nun die erweiterte Nachricht m<sub>ext</sub> = (m<sub>1</sub> || Padding || m<sub>2</sub>) erstellt.
+Sie haben nun die erweiterte Nachricht 
+m<sub>ext</sub> = (m<sub>1</sub> || Padding || m<sub>2</sub>) 
+erstellt.
 
 `echo $m_ext`{{execute}}
