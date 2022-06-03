@@ -2,8 +2,6 @@ Lassen Sie sich die Zertifikatkette der Website in der Datei `chain.cer`{{}} anz
 
 `openssl crl2pkcs7 -nocrl -certfile chain.cer | openssl pkcs7 -print_certs -text -noout |  grep 'Issuer:\|Subject:'`{{execute}}
 
->>6) Geben Sie den Common Name (CN) der Root Certificate Authority an.<<
-=== ISRG Root X1
+>>6) Geben Sie den Common Name (CN) der Root Certificate Authority an.
 
->>7) Geben Sie den Common Name (CN) der Intermediate Certificate Authority an.<<
-=== R3
+>>7) Geben Sie den Common Name (CN) der Intermediate Certificate Authority an.

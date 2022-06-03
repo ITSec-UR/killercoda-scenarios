@@ -10,5 +10,4 @@ Lassen Sie sich anschließend den Hashwert des Zertifikats auf der Konsole ausge
 
 `openssl asn1parse -inform der -in sig-dec.bin`{{execute}}
 
->>8) Kopieren Sie den Hashwert in das Antwortfeld.<<
-=== 444EBD67BB83F8807B3921E938AC9178B882BD50AADB11231F044CF5F08DF7CE
+>>8) Kopieren Sie den Hashwert in das Antwortfeld.

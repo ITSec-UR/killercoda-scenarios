@@ -12,13 +12,6 @@ wird die Eingabe mit Padding-Bytes auf ein Vielfaches der Blocklänge von 64-Byt
 
 Sie vermuten, dass der Schlüssel die Länge 9 hat.
 
->>11) Wie lautet die Längenangabe am Ende des Paddings für die Nachricht k || m<sub>1</sub> (hexadezimal)?<<
-() 15
-() 14
-() 78
-(*) 70
-() 28
-() 62
+>>11) Wie lautet die Längenangabe am Ende des Paddings für die Nachricht k || m<sub>1</sub> (hexadezimal)?
 
->>12) Welche Länge (Bytes) hat das Padding insgesamt?<<
-=== 50
+>>12) Welche Länge (Bytes) hat das Padding insgesamt?

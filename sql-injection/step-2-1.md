@@ -6,5 +6,4 @@ gehasht wurde. In MySQL kann ein MD5-Hash mit dem Befehl `MD5(string);`{{}} erze
 Sie können davon ausgehen, dass der Nutzername und das Passwort die ersten Spalten der Nutzer-Tabelle sind, 
 allerdings ist Ihnen die Anzahl der Spalten nicht bekannt.
 
->>2) Wie viele weitere Spalten enthält die Tabelle?<<
-=== 2
+>>2) Wie viele weitere Spalten enthält die Tabelle?
