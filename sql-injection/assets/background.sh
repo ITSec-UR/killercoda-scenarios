@@ -19,7 +19,7 @@ fi
 
 curl -o "${INSTALL_PATH}/sql-injection.zip" "$SOURCE"
 unzip -d ${NAME} "${INSTALL_PATH}/sql-injection.zip"
-rm -rf "${NAME}/*/quiz-solution"
+rm -rf "${NAME}/sql-injection-main/quiz-solution"
 rm -rf "${INSTALL_PATH}/sql-injection.zip"
 docker-compose -f ${NAME}/*/docker-compose.yml up -d
 
