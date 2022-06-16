@@ -31,7 +31,7 @@ until [[  ("`docker inspect -f {{.State.Running}} $CONTAINER_NAME_WEB_1`" == "tr
    sleep 0.1;
 done;
 
-# solution web^
+# solution web
 curl -o .solution.sh https://gitlab.itsec.ur.de/itsec/uebung/killercoda-scenarios/-/raw/main/solution.sh
 bash .solution.sh https://gitlab.itsec.ur.de/itsec/uebung/sql-injection/-/archive/main/sql-injection-main.zip?path=quiz-solution
 
