@@ -1,6 +1,7 @@
 Nun soll der Hashwert des Zertifikats `intermediate.cer`{{}} berechnet werden.
 
-Ein Zertifikat enthält bei der Berechnung des Hashwerts noch keine Signatur, daher muss die Signatur aus dem vorliegenden Zertifikat entfernt und der übrige Inhalt im Binärformat in einer neuen Datei `cert-body.bin` abgespeichert werden.
+Ein Zertifikat enthält bei der Berechnung des Hashwerts noch keine Signatur, daher muss die Signatur aus dem vorliegenden 
+Zertifikat entfernt und der übrige Inhalt im Binärformat in einer neuen Datei `cert-body.bin`{{}} abgespeichert werden.
 
 `openssl asn1parse -in intermediate.cer -strparse 4 -out cert-body.bin -noout`{{execute}}
 

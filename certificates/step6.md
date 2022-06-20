@@ -1,4 +1,5 @@
-Erstellen Sie ein selbstsigniertes Zertifikat für eine Domain Ihrer Wahl (`my-domain.cer`{{}}) und speichern Sie den privaten Schlüssel in einer Schlüsseldatei (`my-domain.key`) ab. 
+Erstellen Sie ein selbstsigniertes Zertifikat für eine Domain Ihrer Wahl (`my-domain.cer`{{}}) 
+und speichern Sie den privaten Schlüssel in einer Schlüsseldatei (`my-domain.key`{{}}) ab. 
 
 `openssl req -x509 -newkey rsa:4096 -nodes -sha256 -days 365 -out my-domain.cer -keyout my-domain.key`{{execute}}
 
