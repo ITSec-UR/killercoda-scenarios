@@ -6,7 +6,7 @@ apt install bash
 # SQL-Injection Webpages
 SOURCE="https://gitlab.itsec.ur.de/itsec/uebung/sql-injection/-/archive/main/sql-injection-main.zip"
 
-INSTALL_PATH="/opt/containerd"
+INSTALL_PATH="/opt/containered"
 NAME="${INSTALL_PATH}/sql-injection"
 CONTAINER_NAME_WEB_1="web1"
 CONTAINER_NAME_WEB_2="web2"
