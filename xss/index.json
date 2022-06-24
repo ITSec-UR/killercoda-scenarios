@@ -1,6 +1,6 @@
 {
   "title": "Cross-Site Scripting",
-  "description": "Reflexive und persistente XSS-Angriffe",
+  "description": "Reflektierte und persistente XSS-Angriffe",
   "difficulty": "Beginner",
   "time": "40 Minuten",
   "details": {
