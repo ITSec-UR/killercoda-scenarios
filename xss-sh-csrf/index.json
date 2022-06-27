@@ -45,7 +45,7 @@
       {
         "title": "(2.2) Cookie Stealing (XSS)",
         "text": "step-2-2.md",
-        "background": "attacker-xss-cookie.sh"
+        "background": "./assets/attacker-xss-cookie.sh"
       },
       {
         "title": "(2.3) Session Fixation",
@@ -58,22 +58,22 @@
       {
         "title": "(3.1) Gefälschte Login-Seite",
         "text": "step-3-1.md",
-        "background": "attacker-fake-login.sh"
+        "background": "./assets/attacker-fake-login.sh"
       },
       {
         "title": "(3.2) Einbinden der gefälschten Seite",
         "text": "step-2-3.md",
-        "background": "attacker-xss-iframe.sh"
+        "background": "./assets/attacker-xss-iframe.sh"
       },
       {
         "title": "(4) CSRF",
         "text": "step-4.md",
-        "background": "attacker-csrf.sh"
+        "background": "./assets/attacker-csrf.sh"
       },
       {
         "title": "(5) Gegenmaßnahmen",
         "text": "step-5.md",
-        "background": "website-source.sh"
+        "background": "./assets/website-source.sh"
       }
     ],
     "intro": {
