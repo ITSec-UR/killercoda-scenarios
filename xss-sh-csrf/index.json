@@ -62,7 +62,7 @@
       },
       {
         "title": "(3.2) Einbinden der gefälschten Seite",
-        "text": "step-2-3.md",
+        "text": "step-3-2.md",
         "background": "./assets/attacker-xss-iframe.sh"
       },
       {
