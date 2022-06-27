@@ -1,0 +1,99 @@
+{
+  "title": "XSS, Session Hijacking und CSRF",
+  "description": "Angriffe und Gegenmaßnahmen",
+  "difficulty": "Beginner",
+  "time": "40 Minuten",
+  "details": {
+    "steps": [
+      {
+        "title": "Hinweise und Lösungen",
+        "text": "step-0.md",
+        "background": "./assets/background.sh",
+        "foreground": "./assets/foreground.sh"
+      },
+      {
+        "title": "(1) Reflexives XSS",
+        "text": "step-1-0.md"
+      },
+      {
+        "title": "(1.1) Webseite erkunden",
+        "text": "step-1-1.md"
+      },
+      {
+        "title": "(1.2) Zeichenbegrenzung umgehen",
+        "text": "step-1-2.md"
+      },
+      {
+        "title": "(1.3) Tabelle erweitern",
+        "text": "step-1-3.md"
+      },
+      {
+        "title": "(1.4) Fehler?",
+        "text": "step-1-4.md"
+      },{
+      "title": "(1.5) Persistentes XSS",
+      "text": "step-1-4.md"
+      },
+      {
+        "title": "(2) Session Hijacking",
+        "text": "step-2-0.md"
+      },
+      {
+        "title": "(2.1) Sniffing",
+        "text": "step-2-1.md"
+      },
+      {
+        "title": "(2.2) Cookie Stealing (XSS)",
+        "text": "step-2-2.md",
+        "background": "attacker-xss-cookie.sh"
+      },
+      {
+        "title": "(2.3) Session Fixation",
+        "text": "step-2-3.md"
+      },
+      {
+        "title": "(3) Phishing",
+        "text": "step-3-0.md"
+      },
+      {
+        "title": "(3.1) Gefälschte Login-Seite",
+        "text": "step-3-1.md",
+        "background": "attacker-fake-login.sh"
+      },
+      {
+        "title": "(3.2) Einbinden der gefälschten Seite",
+        "text": "step-2-3.md",
+        "background": "attacker-xss-iframe.sh"
+      },
+      {
+        "title": "(4) CSRF",
+        "text": "step-4.md",
+        "background": "attacker-csrf.sh"
+      },
+      {
+        "title": "(5) Gegenmaßnahmen",
+        "text": "step-5.md",
+        "background": "website-source.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+          {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "hideHiddenFiles": true
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
+  
