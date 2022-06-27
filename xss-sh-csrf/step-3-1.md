@@ -10,3 +10,5 @@ Login-Seite einbinden, sodass das gefälschte Login-Fenster genauso gestylt wird
 Ergänzen Sie abschließend noch den PHP-Code zur Verarbeitung der abgegriffenen Login-Daten.
 Wenn der Nutzer in der gefälschten Anmeldemaske seine Login-Daten eingibt, sollen sie statt an die SkyBalloon Webseite
 an Ihre eigene Login-Seite `fake-login.php`{{}} geschickt und in einer TXT-Datei abgespeichert werden.
+
+>13: Tipp und Lösung
