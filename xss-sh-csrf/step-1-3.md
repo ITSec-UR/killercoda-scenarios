@@ -9,7 +9,6 @@ zu verändernden HTML-Codes.
 > Geben Sie das Tag inkl. der spitzen Klammern an. (Format &lt;tagname&gt;)
 
 >6: Mit welcher JavaScript-Methode können Sie auf das passende DOM-Element zugreifen?
->> Single Choice (id, tagname, usw)
 
 Erstellen Sie nun den passenden Javascript-Code, um eine Zeile mit Inhalten Ihrer Wahl in der Tabelle zu ergänzen.
 

@@ -9,13 +9,13 @@ Schwachstellen im Quellcode der zuvor angegriffenen Webseite mithilfe der in der
 
 ## Überblick der Aufgaben:
 
-1) XSS
+**1) XSS**
    1) Reflexiv: Temporäres Fälschen von Webseiteninhalten (1.0 - 1.4)
    2) Persistent: Auslesen der Session-ID (1.5)
-2) Session Hijacking
+**2) Session Hijacking**
    1) Sniffing 
    2) Cookie Stealing (persistentes XSS)
    3) Session Fixation 
-3) Phishing von Zugangsdaten mittels iframe (reflexives XSS)
-4) Cross-Site Request Forgery
-5) Implementierung von Gegenmaßnahmen
+**3) Phishing von Zugangsdaten mittels iframe (reflexives XSS)**
+**4) Cross-Site Request Forgery**
+**5) Implementierung von Gegenmaßnahmen**

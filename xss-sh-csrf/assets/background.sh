@@ -6,7 +6,7 @@ SOURCE2="https://gitlab.itsec.ur.de/itsec/uebung/xss-highlight/-/archive/main/xs
 
 INSTALL_PATH="/opt/containered"
 NAME="${INSTALL_PATH}/xss-battleship"
-NAME2="${INSTALL_PATH}/xss-battleship"
+NAME2="${INSTALL_PATH}/xss-highlight"
 CONTAINER_NAME_WEB_1="web-battleship"
 CONTAINER_NAME_WEB_2="web-highlight"
 CONTAINER_NAME_WEB_3="web-attacker"

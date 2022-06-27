@@ -1,11 +1,12 @@
 Sie überlegen, dass es viel praktischer wäre, wenn die Session-IDs authentifizierter Nutzer automatisch immer
-beim Aufruf der SkyBalloon Webseite an Ihre eigene Seite übermittelt werden würden, 
+beim Aufruf der SkyBalloon Webseite eine Seite auf Ihrem eigenen Webserver übermittelt werden würden, 
 damit Sie bei Bedarf sofort Zugriff auf eine aktuelle Session haben.
+Sie erreichen Ihren eigenen Webserver unter diesem [Link]({{TRAFFIC_HOST1_82}}).
 
 Aus vorherigen Erfahrungen wissen Sie, dass die Webseite anfällig gegenüber persistenten XSS-Angriffen ist.
 
 Entwickeln Sie einen JavaScript Code, der bei jedem Aufruf der Webseite die Session-ID des jeweiligen Nutzers 
-ausliest und als URL-Parameter an eine [dedizierte Seite auf Ihrem eigenen Server]({{TRAFFIC_HOST1_82}}/xss-cookie.php) 
+ausliest und als URL-Parameter an Ihre Webseite [/xss-cookie.php]({{TRAFFIC_HOST1_82}}/xss-cookie.php) 
 übermittelt. Schleusen Sie Ihren Code anstelle eines Highlights in der Webseite ein.
 
 Implementieren Sie Ihre eigene Webseite in der PHP-Datei `/web-attacker/xss-cookie.php`{{}} so, dass die erhaltene Session-ID  
