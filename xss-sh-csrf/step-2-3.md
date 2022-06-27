@@ -1,9 +1,9 @@
 Eine weitere Möglichkeit zur Übernahme einer Session ist ein Session Fixation Angriff, bei dem der Angreifer
-seinem Opfer eine Session-ID vorgibt. Dies kann bei einer anfälligen Webseite bspw. über einen Link mit URL-Paramter
-`webseite.com?sid=123`{{}} geschehen. Der Angreifer kennt also die Session-ID bereits vorab. 
+seinem Opfer eine Session-ID vorgibt. Dies kann bei einer anfälligen Webseite bspw. über einen Link mit URL-Parameter
+`webseite.com?session=123`{{}} geschehen. Der Angreifer kennt also die Session-ID bereits vorab. 
 Meldet sich das Opfer nun unter Verwendung dieser ID an, hat der Angreifer Zugriff auf die authentifizierte Session.
 
-Auf der SkyBalloon Webseite gilt, dass sofern der Parameter `session`{{}} in der URL enthalten ist, der gesetzte Wert 
+Auf der SkyBalloon Webseite gilt, dass wenn der Parameter `session`{{}} in der URL enthalten ist, dessen Wert 
 anstelle einer zufälligen neuen ID verwendet wird.
 
 Rufen Sie zunächst die Webseite in einem anderen "Opfer-Browser" auf und vergewissern Sie sich, 

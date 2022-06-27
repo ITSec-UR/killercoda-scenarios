@@ -39,7 +39,6 @@ done;
 curl -o .solution.sh https://gitlab.itsec.ur.de/itsec/uebung/killercoda-scenarios/-/raw/main/solution.sh
 bash .solution.sh https://gitlab.itsec.ur.de/itsec/uebung/xss-sh-csrf/-/archive/main/xss-sh-csrf-main.zip?path=quiz-solution
 
-
 rm -- "$0"
 
 echo "done" >> /root/.killercoda-finished
