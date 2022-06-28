@@ -8,5 +8,5 @@ ziehen Sie eine Google-Recherche zurate.
 
 Passen Sie dann Ihr Skript entsprechend an, um das Problem zu lösen.
 
->8: Erklärung Rendering-Problem und vollständiges Skript
+>8: Tipp zum Rendering-Problem und vollständiges Skript
 
