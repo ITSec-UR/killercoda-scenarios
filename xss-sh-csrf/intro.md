@@ -4,8 +4,8 @@ Im Rahmen dieses Szenarios sollen verschiedene Angriffe praktisch geübt werden.
 - Phishing
 - Cross-Site Request Forgery
 
-Sie werden zunächst einige Angriffe durchführend und anschließend zur Rolle des Webprogrammierers wechseln und beheben die 
-Schwachstellen im Quellcode der zuvor angegriffenen Webseite mithilfe der in der Veranstaltung gelernten Gegenmaßnahmen.
+Sie werden zunächst einige Angriffe durchführend und anschließend zur Rolle des Webprogrammierers wechseln, um die 
+Schwachstellen im Quellcode zu beheben.
 
 ## Überblick der Aufgaben:
 
