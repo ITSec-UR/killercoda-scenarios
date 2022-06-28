@@ -15,6 +15,6 @@ Erstellen Sie nun den passenden Javascript-Code, um eine Zeile mit Inhalten Ihre
 *Tipp: Verwenden Sie einen Editor Ihrer Wahl. 
 Testen Sie ggf. einzelne Statements in der Konsole der Entwicklertools und fügen Sie sie anschließend zusammen.*
 
->7: Tipp zu nützlichen JavaScript Methoden
+>7: Tipp zum Einfügen von Tabellenzeilen per JavaScript
 
 Führen Sie Ihren XSS-Angriff aus.
