@@ -12,6 +12,6 @@ Der Nutzer wird dann an die mit dem schädlichen iframe infizierte SkyBalloon We
 Implementieren Sie die Webseite, welche die POST-Anfrage durchführt und das iframe mit der gefälschten Loginseite
 in die SkyBalloon Webseite einbettet in der Datei `xss-iframe.php`{{}}.
 
-Die Seite ist auf Ihrem Server erreichbar unter [/xss-iframe.php]({{TRAFFIC_HOST1_82}}/xss-iframe.php).
+Die Seite ist auf Ihrem Server erreichbar unter [xss-iframe.php]({{TRAFFIC_HOST1_82}}/xss-iframe.php).
 
->14: Tipp und Lösung
+>14: Tipp und Lösung xss-iframe.php
