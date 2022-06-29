@@ -1,6 +1,7 @@
 #!/bin/bash
 
-INSTALL_PATH="/opt/containered"
+#/opt/containered/xss/xss-highlight/web/web-attacker/
+INSTALL_PATH="/opt/containrd"
 TASK_NAME="xss-highlight"
 DIRECTORY_NAME="web-attacker"
 

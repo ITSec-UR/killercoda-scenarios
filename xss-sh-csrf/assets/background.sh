@@ -11,6 +11,7 @@ CONTAINER_NAME_WEB_1="web-battleship"
 CONTAINER_NAME_WEB_2="web-highlight"
 CONTAINER_NAME_WEB_3="web-attacker"
 CONTAINER_NAME_DB="db-xss"
+CONTAINER_NAME_SOLUTION="solution-xss"
 
 if [ ! -d "$INSTALL_PATH" ]; then
   mkdir -p $INSTALL_PATH
@@ -36,8 +37,10 @@ until [[  ("`docker inspect -f {{.State.Running}} $CONTAINER_NAME_WEB_1`" == "tr
 done;
 
 # solution web
-curl -o .solution.sh https://gitlab.itsec.ur.de/itsec/uebung/killercoda-scenarios/-/raw/main/solution.sh
-bash .solution.sh https://gitlab.itsec.ur.de/itsec/uebung/xss-sh-csrf/-/archive/main/xss-sh-csrf-main.zip?path=quiz-solution
+docker-compose -f "${NAME}/*/quiz-solution/docker-compose.yml" up -d
+until [[ "`docker inspect -f {{.State.Running}} $CONTAINER_NAME_SOLUTION`" == "true" ]]; do
+   sleep 0.1;
+done;
 
 rm -- "$0"
 
