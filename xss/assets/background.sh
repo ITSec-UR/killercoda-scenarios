@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # XSS, Cookie Hijacking and CSRF Webpages
-SOURCE="https://gitlab.itsec.ur.de/itsec/uebung/xss-battleship/-/archive/main/xss-main.zip"
+SOURCE="https://gitlab.itsec.ur.de/itsec/uebung/xss/-/archive/main/xss-main.zip"
 
 INSTALL_PATH="/opt/containerd"
 NAME="${INSTALL_PATH}/xss"
