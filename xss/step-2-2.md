@@ -11,7 +11,7 @@ ausliest und als URL-Parameter an Ihre Webseite [xss-cookie.php]({{TRAFFIC_HOST1
 
 Implementieren Sie Ihre eigene Webseite in der PHP-Datei `xss-cookie.php`{{}} so, dass die erhaltene Session-ID  
 in einer TXT-Datei abgespeichert wird und deren Inhalt auf der Webseite einsehbar ist. Sie können die Datei im 
-Visual Studio Code Editor bearbeiten (linkes Tab, ggf. aktualisieren nötig).
+Visual Studio Code Editor (linkes Tab) bearbeiten.
 
 >11: Tipp und Lösung JavaScript
 
