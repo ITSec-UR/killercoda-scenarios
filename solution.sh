@@ -1,6 +1,6 @@
 #!/bin/bash
 
-INSTALL_PATH="/opt/containered"
+INSTALL_PATH="/opt/containerd"
 NAME="${INSTALL_PATH}/solution-web"
 CONTAINER_NAME="web-solution"
 
