@@ -30,7 +30,7 @@ until [[  ("`docker inspect -f {{.State.Running}} $CONTAINER_NAME_WEB_1`" == "tr
 done;
 
 # solution web
-docker-compose -f "${NAME}/*/quiz-solution/docker-compose.yml" up -d
+docker-compose -f ${NAME}/*/quiz-solution/docker-compose.yml up -d
 until [[ "`docker inspect -f {{.State.Running}} $CONTAINER_NAME_SOLUTION`" == "true" ]]; do
    sleep 0.1;
 done;
