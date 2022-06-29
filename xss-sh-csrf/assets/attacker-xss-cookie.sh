@@ -1,8 +1,7 @@
 #!/bin/bash
 
-#/opt/containered/xss/xss-highlight/web/web-attacker/
-INSTALL_PATH="/opt/containrd"
-TASK_NAME="xss-highlight"
+INSTALL_PATH="/opt/containerd"
+TASK_NAME="xss"
 DIRECTORY_NAME="web-attacker"
 
 ACTUAL_PATH="${INSTALL_PATH}/${TASK_NAME}/${TASK_NAME}-main/web/${DIRECTORY_NAME}/xss-cookie.php"
