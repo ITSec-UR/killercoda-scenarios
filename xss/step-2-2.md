@@ -9,8 +9,9 @@ Entwickeln Sie einen JavaScript Code, der bei jedem Aufruf der Webseite die Sess
 ausliest und als URL-Parameter an Ihre Webseite [xss-cookie.php]({{TRAFFIC_HOST1_82}}/xss-cookie.php) 
 übermittelt. Schleusen Sie Ihren Code anstelle eines Highlights in der Webseite ein.
 
-Implementieren Sie Ihre eigene Webseite in der PHP-Datei `/web-attacker/xss-cookie.php`{{}} so, dass die erhaltene Session-ID  
-in einer TXT-Datei abgespeichert wird und deren Inhalt auf der Webseite einsehbar ist.
+Implementieren Sie Ihre eigene Webseite in der PHP-Datei `xss-cookie.php`{{}} so, dass die erhaltene Session-ID  
+in einer TXT-Datei abgespeichert wird und deren Inhalt auf der Webseite einsehbar ist. Sie können die Datei im 
+Visual Studio Code Editor bearbeiten (linkes Tab, ggf. aktualisieren nötig).
 
 >11: Tipp und Lösung JavaScript
 
