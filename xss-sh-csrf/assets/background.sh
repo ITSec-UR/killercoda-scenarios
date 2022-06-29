@@ -4,7 +4,7 @@
 SOURCE="https://gitlab.itsec.ur.de/itsec/uebung/xss-battleship/-/archive/main/xss-battleship-main.zip"
 SOURCE2="https://gitlab.itsec.ur.de/itsec/uebung/xss-highlight/-/archive/main/xss-highlight-main.zip"
 
-INSTALL_PATH="/opt/containered"
+INSTALL_PATH="/opt/containerd"
 NAME="${INSTALL_PATH}/xss-battleship"
 NAME2="${INSTALL_PATH}/xss-highlight"
 CONTAINER_NAME_WEB_1="web-battleship"
