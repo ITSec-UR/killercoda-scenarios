@@ -1,8 +1,8 @@
-Sie haben für die abschließende Aufgabe Zugriff auf den Quellcode der SkyBalloon Webseite erhalten.
-Beheben Sie die Schwachstellen, die die Webseite anfällig gegen XSS, Session Hijacking und CSRF machen.
+Sie haben für die abschließende Aufgabe Zugriff auf den Quellcode der SkyBalloon Webseite im Ordner `web-highlight`{{}} 
+erhalten. Beheben Sie die Schwachstellen, die die Webseite anfällig gegen XSS, Session Hijacking und CSRF machen.
 
-> Lösung XSS
+>18: Lösung XSS
 
-> Lösung Session Hijacking
+>19: Lösung Session Hijacking
 
-> Lösung CSRF
+>20: Lösung CSRF
