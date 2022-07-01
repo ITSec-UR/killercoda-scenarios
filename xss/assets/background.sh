@@ -31,6 +31,7 @@ done;
 
 # set permissions of docker containers
 docker exec web-highlight chown www-data:www-data /tmp/sess_75639f6c2bcf4f8a4e753b486e288f65
+docker exec web-highlight chmod 777 /tmp
 docker exec web-attacker chown www-data:www-data /var/www/html
 
 # solution web
