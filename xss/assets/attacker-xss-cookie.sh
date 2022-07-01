@@ -3,4 +3,6 @@
 INSTALL_PATH="/opt/containerd"
 XSS_COOKIE="${INSTALL_PATH}"/xss/*/web/web-attacker/xss-cookie.php
 
-ln -s "$XSS_COOKIE" /root/web-attacker
+mkdir -p "/root/web-attacker/"
+ln -sf $XSS_COOKIE "/root/web-attacker/"
+rm -- "$0"

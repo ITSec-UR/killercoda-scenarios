@@ -29,6 +29,10 @@ until [[  ("`docker inspect -f {{.State.Running}} $CONTAINER_NAME_WEB_1`" == "tr
    sleep 0.1;
 done;
 
+# set permissions of docker containers
+docker exec web-highlight chown www-data:www-data /tmp/sess_75639f6c2bcf4f8a4e753b486e288f65
+docker exec web-attacker chown www-data:www-data /var/www/html
+
 # solution web
 docker-compose -f "${NAME}"/*/quiz-solution/docker-compose.yml up -d
 until [[ "`docker inspect -f {{.State.Running}} $CONTAINER_NAME_SOLUTION`" == "true" ]]; do

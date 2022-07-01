@@ -12,7 +12,7 @@
         "foreground": "./assets/foreground.sh"
       },
       {
-        "title": "(1) Reflexives XSS",
+        "title": "(1) Reflektiertes XSS",
         "text": "step-1-0.md"
       },
       {

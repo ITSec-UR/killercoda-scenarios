@@ -1,4 +1,4 @@
-Da die SkyBalloon Webseite sehr gut besucht ist, möchten Sie als Highlight getarnt Werbung für Ihr eigenes Unternehmen einfügen.
+Da die SkyBalloon Webseite sehr gut besucht ist, möchten Sie als Highlight getarnt PR und Werbung für Ihr eigenes Unternehmen einfügen.
 Dies ist laut den Nutzungsbedingungen der Webseite nicht erlaubt und bei Verstößen kann der Account gesperrt werden.
 
 Sie möchten daher Ihren Post nicht unter Ihrem eigenen Account einfügen,
