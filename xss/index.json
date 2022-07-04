@@ -30,9 +30,10 @@
       {
         "title": "(1.4) Fehler?",
         "text": "step-1-4.md"
-      },{
-      "title": "(1.5) Persistentes XSS",
-      "text": "step-1-5.md"
+      },
+      {
+        "title": "(1.5) Persistentes XSS",
+        "text": "step-1-5.md"
       },
       {
         "title": "(2) Session Hijacking",
@@ -53,17 +54,16 @@
       },
       {
         "title": "(3) Phishing",
-        "text": "step-3-0.md"
+        "text": "step-3-0.md",
+        "background": "./assets/attacker-xss-iframe.sh"
       },
       {
         "title": "(3.1) Gefälschte Login-Seite",
-        "text": "step-3-1.md",
-        "background": "./assets/attacker-fake-login.sh"
+        "text": "step-3-1.md"
       },
       {
         "title": "(3.2) Einbinden der gefälschten Seite",
-        "text": "step-3-2.md",
-        "background": "./assets/attacker-xss-iframe.sh"
+        "text": "step-3-2.md"
       },
       {
         "title": "(4) CSRF",
@@ -84,7 +84,11 @@
     },
     "assets": {
       "host01": [
-          {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+        {
+          "file": "wait.sh",
+          "target": "/usr/local/bin/",
+          "chmod": "+x"
+        }
       ]
     }
   },
