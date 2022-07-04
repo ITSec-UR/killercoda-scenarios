@@ -14,4 +14,4 @@ in die SkyBalloon Webseite einbettet in der Datei `xss-iframe.php`{{}}.
 
 Die Seite ist auf Ihrem Server erreichbar unter [xss-iframe.php]({{TRAFFIC_HOST1_82}}/xss-iframe.php).
 
->14: Tipp und Lösung xss-iframe.php
+>16: Tipp und Lösung xss-iframe.php

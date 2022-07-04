@@ -18,6 +18,6 @@ wird und deren Inhalt auf der Webseite einsehbar ist.
 Alternativ steht es Ihnen natürlich frei, in einem Editor oder IDE Ihrer Wahl zu programmieren 
 und Ihren Code anschließend in die Killercoda Datei zu übertragen.*
 
->11: Tipp und Lösung JavaScript
+>12: Tipp und Lösung JavaScript
 
->12: Tipp und Lösung xss-cookie.php
+>13: Tipp und Lösung xss-cookie.php
