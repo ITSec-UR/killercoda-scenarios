@@ -10,7 +10,7 @@ Schwachstellen im Quellcode zu beheben.
 ## Überblick der Aufgaben:
 
 **1) XSS**
-   1) Reflexiv: Temporäres Fälschen von Webseiteninhalten
+   1) Reflektiert: Temporäres Fälschen von Webseiteninhalten
    2) Persistent: Auslesen der Session-ID
 
 **2) Session Hijacking**
@@ -18,7 +18,7 @@ Schwachstellen im Quellcode zu beheben.
    2) Cookie Stealing (persistentes XSS)
    3) Session Fixation
 
-**3) Phishing von Zugangsdaten mithilfe eines Iframe (reflexives XSS)**
+**3) Phishing von Zugangsdaten mithilfe eines Iframe (reflektiert XSS)**
 
 **4) Cross-Site Request Forgery**
 
