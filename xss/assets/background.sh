@@ -6,7 +6,7 @@ SOURCE="https://gitlab.itsec.ur.de/itsec/uebung/xss/-/archive/main/xss-main.zip"
 INSTALL_PATH="/opt/containerd"
 NAME="${INSTALL_PATH}/xss"
 CONTAINER_NAME_WEB_1="web-battleship"
-CONTAINER_NAME_WEB_2="web-highlight"
+CONTAINER_NAME_WEB_2="web-skyballoon"
 CONTAINER_NAME_WEB_3="web-attacker"
 CONTAINER_NAME_DB="db-xss"
 CONTAINER_NAME_SOLUTION="solution-xss"
@@ -30,8 +30,8 @@ until [[  ("`docker inspect -f {{.State.Running}} $CONTAINER_NAME_WEB_1`" == "tr
 done;
 
 # set permissions of docker containers
-docker exec web-highlight chown www-data:www-data /tmp/sess_75639f6c2bcf4f8a4e753b486e288f65
-docker exec web-highlight chmod 777 /tmp
+docker exec web-skyballoon chown www-data:www-data /tmp/sess_75639f6c2bcf4f8a4e753b486e288f65
+docker exec web-skyballoon chmod 777 /tmp
 docker exec web-attacker chown www-data:www-data /var/www/html
 
 # solution web
