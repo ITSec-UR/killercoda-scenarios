@@ -18,7 +18,7 @@ Schwachstellen im Quellcode zu beheben.
    2) Cookie Stealing (persistentes XSS)
    3) Session Fixation
 
-**3) Phishing von Zugangsdaten mithilfe eines Iframe (reflektiert XSS)**
+**3) Phishing von Zugangsdaten mithilfe eines Iframe (reflektiertes XSS)**
 
 **4) Cross-Site Request Forgery**
 
