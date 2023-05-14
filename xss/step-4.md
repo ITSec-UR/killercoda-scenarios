@@ -1,7 +1,7 @@
 Bei einem Cross-Site Request Forgery Angriff handelt es sich um einen Angriff,
 der durch unsichere Cookie-Einstellungen einer Webseite ermöglicht wird.
 
-Lesen Sie sich [hier]({{https://web.dev/i18n/de/samesite-cookies-explained/#was-sind-erstanbieter-und-drittanbieter-cookies}})
+Lesen Sie sich [hier](https://web.dev/i18n/de/samesite-cookies-explained/#was-sind-erstanbieter-und-drittanbieter-cookies)
 die Abschnitte zu 1st und 3rd Party Cookies, dem Samesite-Attribut und dem Standardverhalten des Browsers diesbezüglich durch.
 
 >17: Welche drei Werte können für Samesite-Attribut gesetzt werden?
