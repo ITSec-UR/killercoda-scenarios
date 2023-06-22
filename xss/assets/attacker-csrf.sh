@@ -5,7 +5,7 @@ ATTACK_LINK="/root/web-attacker/"
 
 if [ ! -L ${ATTACK_LINK} ] ; then
     # Add sym link
-    ln -s $ATTACKER_FOLDER $ATTACK_LINK
+    ln -s -T $ATTACKER_FOLDER $ATTACK_LINK
 fi
 
 echo "<?php\n// <?php\n// This website should send a post request to SkyBalloon website in order to add a new highlight\n// by using the visitor's active and authenticated session (cross site request forgery)" > "${ATTACK_LINK}/csrf.php"

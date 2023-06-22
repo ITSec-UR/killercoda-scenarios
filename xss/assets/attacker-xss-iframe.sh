@@ -5,7 +5,7 @@ ATTACK_LINK="/root/web-attacker/"
 
 if [ ! -L ${ATTACK_LINK} ] ; then
     # Add sym link
-    ln -s $ATTACKER_FOLDER $ATTACK_LINK
+    ln -s -T $ATTACKER_FOLDER $ATTACK_LINK
 fi
 
 echo "<?php\n// This website should be embedded into the original website using XSS (iframe)\n// (1) Spoof original SkyBallon login window (copy html code, fix link issues)\n// (2) Phish login data and save the credentials to a file" > "${ATTACK_LINK}/fake-login.php"
