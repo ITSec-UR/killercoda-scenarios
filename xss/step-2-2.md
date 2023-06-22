@@ -3,7 +3,7 @@ beim Aufruf der SkyBalloon Webseite eine Seite auf Ihrem eigenen Webserver über
 damit Sie bei Bedarf sofort Zugriff auf eine aktuelle Session haben.
 
 *Tipp: Sie erreichen Ihren Angreifer-Webserver unter dieser [Domain]({{TRAFFIC_HOST1_82}}). 
-Die PHP-Dateien für die in den folgenden Aufgaben zu erstellenden Webseiten befinden sich im Ordner `web-attacker`{{}}.*
+Die PHP-Dateien für die in den folgenden Aufgaben zu erstellenden Webseiten befinden sich im Ordner `web-attacker`{{}}. Falls dieser im Editor nicht sichrbar ist, klicken Sie oben links den 'Refresh Explorer' Button.*
 
 Aus vorherigen Erfahrungen wissen Sie, dass die Opfer-Webseite anfällig gegenüber persistenten XSS-Angriffen ist.
 
