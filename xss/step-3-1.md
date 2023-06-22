@@ -2,7 +2,7 @@ Als Erstes benötigen Sie für eine täuschend echte Fälschung des Login-Fenste
 
 Suchen Sie diesen Bestandteil im Quellcode der SkyBalloon Webseite und kopieren Sie ihn in die Datei `fake-login.php`{{}}.
 
-*Tipp: Sie erreichen Ihren Angreifer-Webserver unter dieser [Domain]({{TRAFFIC_HOST1_82}}). 
+*Tipp: Sie erreichen Ihren Angreifer-Webserver unter der [Angreifer-Domain]({{TRAFFIC_HOST1_82}}). 
 Die PHP-Dateien für die in den folgenden Aufgaben zu erstellenden Webseiten befinden sich im Ordner `web-attacker`{{}}.*
 
 Das Design der Webseite wird jedoch nicht direkt im HTML-Code festgelegt, sondern mittels separat ausgelieferten CSS-Dateien, 
