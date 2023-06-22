@@ -18,6 +18,8 @@ wird und deren Inhalt auf der Webseite einsehbar ist.
 Alternativ steht es Ihnen natürlich frei, in einem Editor oder IDE Ihrer Wahl zu programmieren 
 und Ihren Code anschließend in die Killercoda Datei zu übertragen.*
 
+*Tipp: Sie können den Leak sehen, indem Sie die Entwicklertools Ihres Browsers im Netzwerk-Tab öffnen. Hier sollte die Anfrage an <attacker_domain> aufgelistet sein, mit dem Leak des Cookies.*
+
 >12: Tipp und Lösung JavaScript
 
 >13: Tipp und Lösung xss-cookie.php
