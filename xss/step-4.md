@@ -12,7 +12,7 @@ Wie im verlinkten Artikel am Beispiel der Webseite `evil.example`{{}} erwähnt, 
 eine Webseite erstellen, die beim Aufruf eine POST-Anfrage zur Erstellung eines Highlights an die SkyBalloon Webseite auslöst.
 
 Voraussetzung für diesen Angriff ist, dass sich ein Nutzer vor dem Besuch Ihrer Angreifer-Webseite
-[csrf.php]({{TRAFFIC_HOST1_82}}/csrf.php.php) auf bei SkyBalloon angemeldet hat und die Session noch aktiv ist.
+[csrf.php]({{TRAFFIC_HOST1_82}}/csrf.php) auf bei SkyBalloon angemeldet hat und die Session noch aktiv ist.
 
 Da der Cookie auf SkyBalloon ein Ablaufdatum von 1 Stunde besitzt, bedeutet das, dass die SkyBalloon Session noch aktiv ist. 
 Da der Cookie bei der Anfrage mitgesendet wird, ist die Anfrage zur Erstellung eines Hightlights authentisiert und autorisiert.
