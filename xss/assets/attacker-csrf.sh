@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ATTACKER_FOLDER=/opt/containerd/xss/*/web/web-attacker
-ATTACK_LINK=root/web-attacker
+ATTACK_LINK=/root/web-attacker
 
 if [ ! -L ${ATTACK_LINK} ] ; then
     # Add sym link
