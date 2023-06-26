@@ -21,4 +21,4 @@ Spielen Sie das Opfer und melden Sie sich an. Versuchen Sie nun, in ihrem Angrei
 (die Ihnen ja bekannt ist) und ein neues Highlight zu erstellen.
 Sie sollten bereits authentifiziert sein und ohne Anmeldeaufforderung auf den Editor zugreifen können.
 
->14: Beispiellink Session Fixation
+>15: Beispiellink Session Fixation
