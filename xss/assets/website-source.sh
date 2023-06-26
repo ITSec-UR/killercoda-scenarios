@@ -1,6 +1,11 @@
 #!/bin/bash
 
-INSTALL_PATH="/opt/containerd"
-HIGHLIGHT="${INSTALL_PATH}"/xss/*/web/web-skyballoon
+SKYBALLON=/opt/containerd/xss/*/web/web-skyballoon
+HIGHLIGHT_LINK=/root/web-skyballoon
 
-ln -s -T "$HIGHLIGHT" /root/web-skyballoon
+if [ ! -L ${HIGHLIGHT_LINK} ] ; then
+    # Add sym link
+    ln -s -T $SKYBALLON $HIGHLIGHT_LINK
+fi
+
+rm -- "$0"
