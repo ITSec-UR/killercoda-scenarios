@@ -8,7 +8,12 @@ zu verändernden HTML-Codes.
 >5: Welche Art von HTML-Element für die Darstellung der Einträge in der Hall of Fame verwendet? 
 > Geben Sie das Tag inkl. der spitzen Klammern an. (Format &lt;tagname&gt;)
 
->6: Mit welcher JavaScript-Methode können Sie auf das passende DOM-Element zugreifen?
+>6: Mit welcher JavaScript-Methode können Sie auf das passende DOM-Element zugreifen?<br><br>
+> document.getElementsByClassName()<br>
+> document.querySelector('table')<br>
+> document.getElementById()<br>
+> document.querySelectorAll('table')[0]<br>
+> document.getElementsByTagName('table')<br>
 
 Erstellen Sie nun den passenden Javascript-Code, um eine Zeile mit Inhalten Ihrer Wahl in der Tabelle zu ergänzen.
 
