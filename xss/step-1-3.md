@@ -13,7 +13,7 @@ zu verändernden HTML-Codes.
 > document.querySelector('table')<br>
 > document.getElementById()<br>
 > document.querySelectorAll('table')[0]<br>
-> document.getElementsByTagName('table')<br>
+> document.getElementsByTagName('table')[0]<br>
 
 Erstellen Sie nun den passenden Javascript-Code, um eine Zeile mit Inhalten Ihrer Wahl in der Tabelle zu ergänzen.
 
