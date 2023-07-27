@@ -10,4 +10,4 @@ Lassen Sie sich anschließend den Hashwert des Zertifikats auf der Konsole ausge
 
 `openssl asn1parse -inform der -in sig-dec.bin`{{execute}}
 
->10: Geben Sie den Hashwert des Intermediär-Zertifikats an.
+>11: Geben Sie den Hashwert des Intermediär-Zertifikats an.
