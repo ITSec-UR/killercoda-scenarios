@@ -11,8 +11,8 @@ Lassen Sie sich den Inhalt des Zertifikats mithilfe von OpenSSL anzeigen und bea
 
 >4: Wie viele Monate ist das Zertifikat gültig?
 
->5: Geben Sie den öffentlichen Schlüssel (e, N) des Zertifikats an.
+>5: Welcher Signaturalgorithmus wurde verwendet?
 
->6: Wie viele Dezimalstellen hat N? Wie groß (in Bytes) darf eine Nachricht maximal sein?
+>6: Geben Sie den öffentlichen Schlüssel (e, N) des Zertifikats an.
 
->7: Welcher Signaturalgorithmus wurde verwendet?
+>7: Wie viele Dezimalstellen hat N? Wie groß (in Bytes) darf eine Nachricht maximal sein?
