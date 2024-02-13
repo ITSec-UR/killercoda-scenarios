@@ -8,5 +8,8 @@ Sie werden Ihren Container nicht finden, da dieser Befehl nur die laufenden Cont
 `docker ps -a`{{execute}}
 
 Löschen Sie nun Ihren Container und lassen Sie sich wieder alle bestehenden Container ausgeben.  
-`docker rm {CONTAINER_ID|CONTAINER_NAME}`{{}}
+`docker rm {CONTAINER_ID|CONTAINER_NAME}`{{}}  
 `docker ps -a`{{execute}}
+
+Alternativ können alle Container erzwungenermaßen (Option -f) gelöscht werden durch
+`docker rm -f $(docker ps -aq)`{{execute}}.
