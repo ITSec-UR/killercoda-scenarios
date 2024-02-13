@@ -17,6 +17,4 @@ Wenn Sie ein solches Image mit Hilfe von Docker starten, erhalten Sie einen Cont
 Dadurch lassen sich Interferenzen zwischen installierten Libraries oder Programmen (inkl. verschiedener Versionen) verhindern. 
 Im Vergleich zu Virtual Machines (VM) sind Container leichtgewichtiger, da auf das gleiche Betriebssystem (OS) zurückgegriffen wird.
 
-![Alt text](https://gitlab.itsec.ur.de/itsec/uebung/killercoda-scenarios/-/raw/main/docker-introdcution/assets/Docker.svg)
-![Alt text](https://gitlab.itsec.ur.de/itsec/uebung/killercoda-scenarios/-/raw/main/docker-introdcution/assets/VM.svg)
 <img src="src="https://gitlab.itsec.ur.de/itsec/uebung/killercoda-scenarios/-/raw/main/docker-introdcution/assets/Docker.svg"> <img src="src="https://gitlab.itsec.ur.de/itsec/uebung/killercoda-scenarios/-/raw/main/docker-introdcution/assets/VM.svg">
