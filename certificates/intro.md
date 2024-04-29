@@ -1,4 +1,3 @@
-Test
 In diesem Szenario soll der praktische Umgang mit Zertifikaten mithilfe der Anwendung OpenSSL geübt werden. <br>
 
 Die vier Teilaufgaben des Szenarios umfassen
