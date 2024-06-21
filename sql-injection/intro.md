@@ -3,8 +3,8 @@ Das Ziel der Angriffe ist zunächst das Umgehen der Passwortabfrage beim Login.
 Anschließend sollen über Formularfelder und URL-Parameter Informationen über die jeweilige Datenbankstruktur
 und Login-Daten ausgelesen werden.
 
-Ihnen ist bereits bekannt, dass die Webseite in <strong>PHP</strong> geschrieben wurde
-und eine <strong>MySQL</strong> Datenbank verwendet.
+Ihnen ist bereits bekannt, dass die Webseite in <span style="color: red;">PHP</span> geschrieben wurde
+und eine <span style="color: red;">MySQL</span> Datenbank verwendet.
 
 ## Überblick der Aufgaben:
 
