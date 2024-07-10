@@ -2,4 +2,6 @@
 
 >3: Wie lautet der Name der Datenbank?
 
-**Tipp:** _Recherchieren Sie den Befehl zum Abruf des Datenbanknames in MySQL._
+**Tipp:**
+
+_Recherche: Befehl zum Abruf des Datenbanknames in MySQL._

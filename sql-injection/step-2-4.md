@@ -2,7 +2,8 @@ Nun sollen die Spaltennamen der für Login-Daten relevanten Tabelle ausgelesen w
 
 >5: In welcher Tabelle vermuten Sie die Login-Daten?
 
-**Tipps:**
-- _Recherche: Mit welchem Befehl können die Spaltennamen einer Tabelle ausgelesen werden?_
+**Tipp:**
+
+_Recherche: Befehl zum Auslesen von Spaltennamen einer Tabelle_
 
 >6: Welche Spalten enthält die Tabelle?
