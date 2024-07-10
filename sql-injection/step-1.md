@@ -7,5 +7,6 @@ unter dem Sie sich anmelden können.
 >1: Wie lautet das SQL-Statement zur Anmeldung ohne Passwort?
 
 **Tipps**:
-- _Probieren Sie analog zur Vorlesung häufige Variationen für den Nutzernamen des Administrator-Kontos aus._
+- _Recherche: Häufige Nutzernamen für Administrator-Konten_
+- _Probieren Sie analog zur Vorlesung verschiedene Variationen für den Nutzernamen aus._
 - _Geben Sie ein beliebiges Zeichen im Passwortfeld ein, damit das Login-Formular abgesendet werden kann._
