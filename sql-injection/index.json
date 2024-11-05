@@ -48,20 +48,24 @@
         "text": "step-3-0.md"
       },
       {
-      "title": "(3.1) Datenbank",
-      "text": "step-3-1.md"
+        "title": "(3.1) Hinweise",
+        "text": "step-3-1.md"
       },
       {
-        "title": "(3.2) Tabellen",
-        "text": "step-3-2.md"
+      "title": "(3.2) Datenbank",
+      "text": "step-3-2.md"
       },
       {
-        "title": "(3.3) Spalten",
+        "title": "(3.3) Tabellen",
         "text": "step-3-3.md"
       },
       {
-        "title": "(3.4) Zugangsdaten",
+        "title": "(3.4) Spalten",
         "text": "step-3-4.md"
+      },
+      {
+        "title": "(3.5) Zugangsdaten",
+        "text": "step-3-5.md"
       }
     ],
     "intro": {
