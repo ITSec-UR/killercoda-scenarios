@@ -6,7 +6,7 @@ Encodieren Sie Ihr Injection-Statement dazu mithilfe eines Online URL-Encoders u
 **Tipps zum Aufbau des Injection-Statements (IS)**:
 - _Verwenden Sie die UNION-Klausel._
 - _Erhöhen Sie inkrementell die Spaltenanzahl in Ihrem IS._
-- _Verwenden Sie aufsteigende Zahlen in Ihrem SELECT-Statement. So können Sie Rückschlüsse auf die Reihenfolge und Inhalte der Spalten ziehen, bspw. Spalte \[Nr.\] enthält den Titel._
+- _Verwenden Sie aufsteigende Zahlen in Ihrem SELECT-Statement. So können Sie Rückschlüsse auf die Reihenfolge der Spalten ziehen, bspw. Spalte \[Nr.\] enthält den Titel._
 
 
 >12: Wie lautet der Name der Datenbank?
