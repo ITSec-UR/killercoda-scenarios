@@ -13,5 +13,5 @@ Encodieren Sie Ihr Injection-Statement dazu mithilfe eines Online URL-Encoders u
 
 **Tipp**:
 
-- _Recherche: Befehl zum Abruf des Datenbanknames in MySQL._
+- _Recherche: Befehl zum Abruf des Datenbanknamens in MySQL._
 - _Wählen Sie für die Ausgabe des Datenbanknamens eine beliebige Spalte, deren Inhalt als Text auf der Webseite dargestellt wird (bspw. Titel)._
