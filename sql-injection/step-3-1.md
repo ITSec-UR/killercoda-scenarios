@@ -1,4 +1,4 @@
-Ein Artikel wird durch eine eindeutige ID gekennzeichnet und durch die Anzeige der Webseite wissen Sie,
+Ein Artikel wird durch eine eindeutige _id_ gekennzeichnet und durch die Anzeige der Webseite wissen Sie,
 dass außerdem einen Autor, Titel, Bild, Datum und der Text in der entsprechenden Tabelle der Datenbank gespeichert sein muss.
 
 ABER: Anders als in Aufgabe 2 haben Sie diesmal keine weiteren Informationen zur Reihenfolge der Spalten gegeben.

@@ -1,5 +1,5 @@
 Beginnen Sie wie bei der vorherigen Webseite damit, die Spaltenanzahl der für die SQL-Injection genutzten Tabelle und den Namen der Datenbank herauszufinden.
-Encodieren Sie Ihr Injection-Statement dazu mithilfe eines Online URL-Encoders und kopieren Sie es anstelle des Werts für die ID (1-4) in die Adresszeile.
+Encodieren Sie Ihr Injection-Statement dazu mithilfe eines Online URL-Encoders und kopieren Sie es anstelle des Werts für die _id_ (1-4) in die Adresszeile.
 
 >11: Wie viele Spalten enthält die Tabelle insgesamt?
 
