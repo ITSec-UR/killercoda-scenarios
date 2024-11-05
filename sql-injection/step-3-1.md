@@ -1,16 +1,12 @@
-Beginnen Sie wie bei der vorherigen Webseite damit, die Spaltenanzahl der für die SQL-Injection genutzten Tabelle und den Namen der Datenbank herauszufinden.
-Encodieren Sie Ihr Injection-Statement dazu mithilfe eines Online URL-Encoders und kopieren Sie es anstelle des Werts für die ID (1-4) in die Adresszeile.
+Ein Artikel wird durch eine eindeutige ID gekennzeichnet und durch die Anzeige der Webseite wissen Sie,
+dass außerdem einen Autor, Titel, Bild, Datum und der Text in der entsprechenden Tabelle der Datenbank gespeichert sein muss.
 
->11: Wie viele Spalten enthält die Tabelle insgesamt?
+ABER: Anders als in Aufgabe 2 haben Sie diesmal keine weiteren Informationen zur Reihenfolge der Spalten gegeben.
+Sie wissen ebenfalls nicht, ob ggf. weitere Spalten existieren, deren Inhalte nicht auf der Website angezeigt werden.
 
-**Tipps zum Aufbau des Injection-Statements (IS)**:
-- _Verwenden Sie die UNION-Klausel._
-- _Erhöhen Sie inkrementell die Spaltenanzahl in Ihrem IS._
-- _Verwenden Sie aufsteigende Zahlen in Ihrem SELECT-Statement. So können Sie Rückschlüsse auf die Reihenfolge und Inhalte der Spalten ziehen, bspw. Spalte \[Nr.\] enthält den Titel._
+**Tipp zum allgemeinen Vorgehen**:
 
+_Visualisieren Sie Ihr aktuelles Wissen über den Tabellenaufbau mithilfe einer Skizze._
+_Sie können bspw. auch ChatGPT nutzen, um interaktiv eine Tabelle erstellen und diese schrittweise mit neu gewonnenen Informationen füllen._
 
->12: Wie lautet der Name der Datenbank?
-
-**Tipp**:
-
-_Recherche: Befehl zum Abruf des Datenbanknames in MySQL.__Wählen Sie für die Ausgabe des Datenbanknamens eine beliebige Spalte, deren Inhalt auf der Webseite angezeigt wird aus (bspw. Titel)._
+_Beispielprompts: Erstelle eine leere Tabelle mit X Spalten. Füge X Spalten hinzu. Setze die Spaltennamen auf ABC, DEF, ..._

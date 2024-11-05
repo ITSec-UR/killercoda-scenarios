@@ -1,7 +1,7 @@
-Verschaffen Sie sich Zugriff auf die Login-Daten der Autoren der Website.
+Lesen Sie als Nächstes die Spaltennamen der Tabelle aus.
 
->16: Finden Sie die E-Mail Adresse und das Passwort von _modellbauklaus_ heraus.
+>15: Welche Spalten enthält die Tabelle?
 
->17: Finden Sie die E-Mail Adresse und das Passwort von _rüdiger_ heraus.
+**Tipp:**
 
->18: Finden Sie die E-Mail Adresse und das Passwort von _siegfried_ heraus.
+_Recherche: Befehl zum Auslesen von Spaltennamen einer Tabelle_
