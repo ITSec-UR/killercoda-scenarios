@@ -4,11 +4,7 @@ dass außerdem einen Autor, Titel, Bild, Datum und der Text in der entsprechende
 ABER: Anders als in Aufgabe 2 haben Sie diesmal keine weiteren Informationen zur Reihenfolge der Spalten gegeben.
 Sie wissen ebenfalls nicht, ob ggf. weitere Spalten existieren, deren Inhalte nicht auf der Website angezeigt werden.
 
--------------------------------
-| column1 | column2 | column3 | ... | 
--------------------------------
-|... | ... | ... | ... |
---------------------------
+_______________
 
 **Tipp zum allgemeinen Vorgehen**:
 
