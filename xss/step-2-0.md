@@ -1,10 +1,10 @@
-Da die SkyBalloon Webseite sehr gut besucht ist, möchten Sie als Highlight getarnt PR und Werbung für Ihr eigenes Unternehmen einfügen.
-Dies ist laut den Nutzungsbedingungen der Webseite nicht erlaubt und bei Verstößen kann der Account gesperrt werden.
+[Webseite für alle weiteren Aufgaben]({{TRAFFIC_HOST1_81}})
 
-Sie möchten daher Ihren Post nicht unter Ihrem eigenen Account einfügen,
-sondern durch Session Hijacking Zugriff auf die bereits authentifizierte Session eines anderen Nutzers erlangen.
+Auf der SkyBalloon Webseite können angemeldete Nutzer nun neue Highlights hinzufügen.
+Verwenden Sie für die Anmeldung Zugangsdaten, die Sie durch die SQL-Injection herausgefunden haben
+oder erstellen Sie einen neuen Account.
 
-Es gibt mehrere Möglichkeiten für einen solchen Angriff, welche in den folgenden Schritten umgesetzt werden sollen.
-1) Sniffing
-2) Cookie Stealing (XSS)
-3) Session Fixation
+Verwenden Sie zum Testen des persistenten XSS-Angriffs ein Skript, 
+das bei jedem Aufruf der Webseite die Session-ID in der Konsole ausgibt.
+
+>10: Tipp und Lösungsvorschläge zum Auslesen der Session-ID
