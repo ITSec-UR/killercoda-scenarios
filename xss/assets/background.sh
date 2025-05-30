@@ -40,6 +40,4 @@ until [[ "`docker inspect -f {{.State.Running}} $CONTAINER_NAME_SOLUTION`" == "t
    sleep 0.1;
 done;
 
-rm -- "$0"
-
-echo "done" >> /root/.killercoda-finished
+touch /tmp/.killercoda-finished

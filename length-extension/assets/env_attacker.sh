@@ -20,10 +20,10 @@ wget https://gitlab.itsec.ur.de/itsec/uebung/length-extension/raw/master/sha1.py
 
 # install packages
 apt-get install -y ascii
-rm -r /root/snap
+rm -rf /root/snap
 
 # solution
 curl -o .solution.sh https://gitlab.itsec.ur.de/itsec/uebung/killercoda-scenarios/-/raw/main/solution.sh
 bash .solution.sh https://gitlab.itsec.ur.de/itsec/uebung/length-extension/-/archive/master/length-extension-master.zip?path=katacoda-quiz-solution
 
-echo "done" >> /root/.killercoda-finished
+touch /tmp/.killercoda-finished

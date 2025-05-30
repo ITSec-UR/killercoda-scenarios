@@ -10,4 +10,4 @@ do
    echo "export $i="'"'${env[$i]}'"' >> /root/.environment
 done
 
-echo "done" >> /root/.killercoda-finished
+touch /tmp/.killercoda-finished
