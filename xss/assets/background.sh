@@ -20,6 +20,9 @@ unzip -d "${NAME}" "${INSTALL_PATH}/xss.zip"
 rm -rf "${INSTALL_PATH}/xss.zip"
 docker-compose -f "${NAME}"/*/docker-compose.yml up -d
 
+# install requited packages
+DEBIAN_FRONTEND=noninteractive apt-get install -y -qq tshark
+
 # check if containers are running
 until [[  ("`docker inspect -f {{.State.Running}} $CONTAINER_NAME_WEB_1`" == "true") &&
           ("`docker inspect -f {{.State.Running}} $CONTAINER_NAME_WEB_2`" == "true") &&

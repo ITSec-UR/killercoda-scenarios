@@ -7,3 +7,4 @@ if [ ! -L ${HIGHLIGHT_LINK} ] ; then
     # Add sym link
     ln -s -T $SKYBALLON $HIGHLIGHT_LINK
 fi
+touch -h $HIGHLIGHT_LINK

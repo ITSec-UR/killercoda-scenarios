@@ -45,7 +45,8 @@
       },
       {
         "title": "(3.1) Sniffing",
-        "text": "step-3-1.md"
+        "text": "step-3-1.md",
+        "background": "./assets/attacker-sniffing.sh"
       },
       {
         "title": "(3.2) Cookie Stealing (XSS)",

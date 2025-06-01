@@ -9,3 +9,4 @@ if [ ! -L ${ATTACK_LINK} ] ; then
 fi
 
 echo -e "<?php\n// This website should save cookies which are sent via the URL parameters to a file" > "${ATTACK_LINK}/xss-cookie.php"
+touch -h $ATTACK_LINK
