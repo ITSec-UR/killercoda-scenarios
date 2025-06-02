@@ -1,13 +1,16 @@
-Die Login-Seite von SkyBalloon ist anfällig für eine XSS-Attacke. Ein falscher Anmeldename wird dort explizit ausgegeben. Sie als Angreifer möchten im Folgenden die Ausgabe des Nutzernamens kontrollieren, indem Sie Ihren Angriffspayload dort unterbringen. 
+Die Login-Seite von SkyBalloon ist anfällig für eine **reflektierte XSS-Attacke**. Wird ein ungültiger Benutzername eingegeben, erscheint dieser ungefiltert in der Fehlermeldung – eine Schwachstelle, die Sie als Angreifer ausnutzen möchten, um dort einen XSS-Payload einzuschleusen.
 
 Im Beispiel der Vorlesung wurden die Login-Daten über GET-Parameter in der URL an die Webseite übermittelt (und ausgewertet). 
 
-In dieser Aufgaben werden die Formulareingaben jedoch über die POST-Methode verschickt. Um Ihren Schadcode auf der SkyBallon Webseite unterzubringen, müssen Sie also eine POST-Anfrage auslösen. Das Opfer soll dazu auf einen Link zu Ihrer Webseite klicken. Diese sendet per HTTP POST-Methode automatisch eine gefälschte Login-Anfrage mit dem XSS-Angriff an die SkyBalloon Webseite. 
+In dieser Aufgaben werden die Formulareingaben jedoch über die realistischere POST-Methode verschickt. Um Ihren Schadcode auf der SkyBallon Webseite unterzubringen, müssen Sie also eine POST-Anfrage auslösen.
 
-Über den XSS-Angriff soll Ihre gefälschte Webseite `fake-login.php`{{}} in die SkyBallon Webseite als Iframe eingebettet werden und die orginale Webseite überlagern. Ziel des Angriffs ist es, dass der Nutzer sich auf der gefälschten Webseite (Iframe) anmeldet, die seine Credentials in einer Datei abspeichert. 
+### Ziel des Angriffs
 
-Implementieren Sie die Webseite `xss-iframe.php`{{}}, welche die POST-Anfrage so durchführt, dass Ihre gefälschte Loginseite als Iframe in die SkyBalloon Webseite einbettet wird. 
+Sie möchten dem Opfer einen Link zu Ihrer eigenen Webseite schicken. Diese Webseite löst beim Aufruf automatisch eine POST-Anfrage aus, die eine gefälschte Login-Anfrage mit eingebettetem XSS-Code an die SkyBalloon Webseite sendet.  
 
-Die Seite ist auf Ihrem Server erreichbar unter [xss-iframe.php]({{TRAFFIC_HOST1_82}}/xss-iframe.php).
+Durch diesen XSS-Code soll Ihre eigene Login-Seite (`fake-login.php`{{}}) als Iframe in die Zielseite eingebettet werden und das echte Login-Fenster überlagern. Ziel ist es, dass sich das Opfer auf der gefälschten Seite im Iframe anmeldet, wobei die Zugangsdaten in einer Datei gespeichert werden.
+
+### Aufgabe
+Implementieren Sie die Datei `xss-iframe.php`{{}}, die beim Aufruf eine automatische POST-Anfrage an die SkyBalloon-Webseite sendet und dabei Ihre `fake-login.php`{{}} als Iframe einschleust.  
 
 >17: Tipp und Lösung xss-iframe.php

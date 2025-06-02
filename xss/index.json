@@ -71,6 +71,10 @@
         "text": "step-4-2.md"
       },
       {
+        "title": "(4.3) Verifizieren der Attacke",
+        "text": "step-4-3.md"
+      },
+      {
         "title": "(5) CSRF",
         "text": "step-5-0.md",
         "background": "./assets/attacker-csrf.sh"
