@@ -17,4 +17,4 @@ Erstellen Sie die Datei `xss-cookie.php`{{}}, sodass die empfangene Session-ID i
 - Sie erreichen Ihren Angreifer-Webserver unter der [Angreifer-Domain]({{TRAFFIC_HOST1_82}}). 
 Die PHP-Dateien für die in den folgenden Aufgaben zu erstellenden Webseiten befinden sich im Ordner `web-attacker`{{}}. Falls dieser im Editor nicht sichtbar ist, klicken Sie oben links den 'Refresh Explorer' Button.
 - Sie können über den integrierten Visual Studio Code Editor (linkes Tab) direkt in Killercoda arbeiten. Alternativ steht es Ihnen natürlich frei, in einem Editor oder IDE Ihrer Wahl zu programmieren und Ihren Code anschließend in die Killercoda Datei zu übertragen.
-- Sie können den Leak sehen, indem Sie die Entwicklertools Ihres Browsers im Netzwerk-Tab öffnen. Hier sollte die Anfrage an {{TRAFFIC_HOST1_82}} aufgelistet sein, mit dem Leak des Cookies.*
+- Sie können den Leak sehen, indem Sie die Entwicklertools Ihres Browsers im Netzwerk-Tab öffnen. Hier sollte die Anfrage an {{TRAFFIC_HOST1_82}} aufgelistet sein, mit dem Leak des Cookies.
