@@ -34,6 +34,7 @@ done;
 docker exec web-skyballoon chown www-data:www-data /tmp/sess_75639f6c2bcf4f8a4e753b486e288f65
 docker exec web-skyballoon chmod 777 /tmp
 docker exec web-attacker chown www-data:www-data /var/www/html
+docker exec web-battleship chown www-data:www-data ./data/hall-of-fame.json
 
 # rename domains in solution to current killercoda scenario
 skyballoon_port=$(docker port "$CONTAINER_NAME_WEB_2" 80/tcp | awk -F: '{print $2}' | head -n1)
