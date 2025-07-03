@@ -9,4 +9,4 @@ if [ ! -L ${ATTACK_LINK} ] ; then
 fi
 
 echo -e "<?php\n// <?php\n// This website should send a post request to SkyBalloon website in order to add a new highlight\n// by using the visitor's active and authenticated session (cross site request forgery)" > "${ATTACK_LINK}/csrf.php"
-rm -- "$0"
+touch -h $ATTACK_LINK

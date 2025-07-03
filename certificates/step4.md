@@ -4,7 +4,7 @@ Der dazu nötige öffentliche Testschlüssel der Root CA ist in `root.pub`{{}} u
 
 Wenden Sie zunächst den Testschlüssel auf die Signatur an und speichern Sie das Ergebnis in eine neue Datei.
 
-`openssl rsautl -verify -inkey root.pub -in sig.bin -pubin > sig-dec.bin`{{execute}}
+`openssl pkeyutl -verifyrecover -inkey root.pub -in sig.bin -pubin -out sig-dec.bin`{{execute}}
 
 Lassen Sie sich anschließend den Hashwert des Zertifikats auf der Konsole ausgeben.
 

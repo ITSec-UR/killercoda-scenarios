@@ -11,14 +11,15 @@ CONTAINER_NAME_WEB_3="web-attacker"
 CONTAINER_NAME_DB="db-xss"
 CONTAINER_NAME_SOLUTION="solution-xss"
 
-if [ ! -d "$INSTALL_PATH" ]; then
-  mkdir -p "$INSTALL_PATH"
-fi
+mkdir -p "$INSTALL_PATH"
 
 curl -o "${INSTALL_PATH}/xss.zip" "$SOURCE"
 unzip -d "${NAME}" "${INSTALL_PATH}/xss.zip"
 rm -rf "${INSTALL_PATH}/xss.zip"
 docker-compose -f "${NAME}"/*/docker-compose.yml up -d
+
+# install requited packages
+DEBIAN_FRONTEND=noninteractive apt-get install -y -qq tshark
 
 # check if containers are running
 until [[  ("`docker inspect -f {{.State.Running}} $CONTAINER_NAME_WEB_1`" == "true") &&
@@ -33,13 +34,22 @@ done;
 docker exec web-skyballoon chown www-data:www-data /tmp/sess_75639f6c2bcf4f8a4e753b486e288f65
 docker exec web-skyballoon chmod 777 /tmp
 docker exec web-attacker chown www-data:www-data /var/www/html
+docker exec web-battleship chown www-data:www-data ./data/hall-of-fame.json
+
+# rename domains in solution to current killercoda scenario
+skyballoon_port=$(docker port "$CONTAINER_NAME_WEB_2" 80/tcp | awk -F: '{print $2}' | head -n1)
+attacker_port=$(docker port "$CONTAINER_NAME_WEB_3" 80/tcp | awk -F: '{print $2}' | head -n1)
+skyballoon_domain=$(sed "s/PORT/${skyballoon_port}/g" /etc/killercoda/host)
+attacker_domain=$(sed "s/PORT/${attacker_port}/g" /etc/killercoda/host)
+target_file="$NAME/xss-main/quiz-solution/html/quiz.json"
+sed -i "s|<skyBalloon_domain>|$skyballoon_domain|g" "$target_file"
+sed -i "s|<attacker_domain>|$attacker_domain|g" "$target_file"
 
 # solution web
 docker-compose -f "${NAME}"/*/quiz-solution/docker-compose.yml up -d
+
 until [[ "`docker inspect -f {{.State.Running}} $CONTAINER_NAME_SOLUTION`" == "true" ]]; do
    sleep 0.1;
 done;
 
-rm -- "$0"
-
-echo "done" >> /root/.killercoda-finished
+touch /tmp/.killercoda-finished
