@@ -10,10 +10,10 @@ zu verändernden HTML-Codes.
 
 >6: Mit welcher JavaScript-Methode können Sie auf das passende DOM-Element zugreifen?<br><br>
 > document.getElementsByClassName()<br>
-> document.querySelector('table')<br>
+> document.querySelector('#hof-box table')<br>
 > document.getElementById()<br>
-> document.querySelectorAll('table')[0]<br>
-> document.getElementsByTagName('table')[0]<br>
+> document.querySelectorAll('table')[1]<br>
+> document.getElementsByTagName('table')[1]<br>
 
 Erstellen Sie nun den passenden Javascript-Code, um eine Zeile mit Inhalten Ihrer Wahl in der Tabelle zu ergänzen.
 
